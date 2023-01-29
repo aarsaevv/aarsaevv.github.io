@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'vcr_osd_mono_rus_by_daymariRg';
+    src: url('./assets/fonts/vcr_osd_mono_cyr-webfont.woff2') format('woff2'),
+         url('./assets/fonts/vcr_osd_mono_cyr-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
