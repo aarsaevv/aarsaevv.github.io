@@ -2,7 +2,7 @@ import './App.sass';
 
 function App() {
   return (
-    <div className='container'>
+    <div className='container--mobile'>
       <div className="home">
         <div className="navigation">
           <div className="navigation__logo"></div>
