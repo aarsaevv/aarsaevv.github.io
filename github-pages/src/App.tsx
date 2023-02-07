@@ -1,6 +1,6 @@
+import { Route, Routes } from "react-router";
 import "./App.sass";
 import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 import Contacts from "./pages/Contacts";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
@@ -11,12 +11,13 @@ function App() {
 	return (
 		<div className="container">
 			<Navbar />
-			<Sidebar />
-			<Home />
-			<Work />
-			<Skills />
-			<Profile />
-			<Contacts />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/work" element={<Work />} />
+				<Route path="/skills" element={<Skills />} />
+				<Route path="/profile" element={<Profile />} />
+				<Route path="/contacts" element={<Contacts />} />
+			</Routes>
 		</div>
 	);
 }
