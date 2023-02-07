@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 
 function Contacts() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<div className="contacts">
 				<div className="contacts__header">Contacts</div>

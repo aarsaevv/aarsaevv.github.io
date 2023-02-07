@@ -9,7 +9,7 @@ import Work from "./pages/Work";
 
 function App() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<Sidebar />
 			<Home />

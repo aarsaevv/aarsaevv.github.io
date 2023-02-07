@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 function Profile() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<div className="profile">
 				<div className="profile__header">Profile</div>

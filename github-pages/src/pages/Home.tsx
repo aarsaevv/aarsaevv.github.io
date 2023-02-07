@@ -7,7 +7,7 @@ import Navbar from "../components/Navbar";
 
 function Home() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<div className="home">
 				<div className="home__image"></div>

@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 
 function Work() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<div className="work">
 				<div className="work__header">Work</div>

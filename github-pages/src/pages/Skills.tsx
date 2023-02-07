@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 
 function Skills() {
 	return (
-		<div className="container--mobile">
+		<div className="container">
 			<Navbar />
 			<div className="skills">
 				<div className="skills__header">Skills</div>
