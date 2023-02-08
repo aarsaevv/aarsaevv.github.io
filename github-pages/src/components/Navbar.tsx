@@ -30,7 +30,6 @@ function Navbar() {
 	function randomizeLogo() {
 		return Math.round(Math.random() * 10) <= 1;
 	}
-	console.log(randomizeLogo());
 	return (
 		<div className="">
 			<div className={!isActive ? "navigation" : "hidden"}>

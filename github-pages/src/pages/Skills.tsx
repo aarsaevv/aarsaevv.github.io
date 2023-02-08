@@ -5,7 +5,7 @@ import vue from "../assets/images/vue.png";
 
 function Skills() {
 	return (
-		<div id="skills-page" className="skills">
+		<div id="skills" className="skills">
 			<div className="skills__header">Skills</div>
 			<div className="skills__blocks block">
 				<div className="block__items item">

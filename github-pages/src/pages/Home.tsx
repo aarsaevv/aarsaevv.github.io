@@ -6,7 +6,7 @@ import expand from "../assets/images/button-expand.svg";
 
 function Home() {
 	return (
-		<div id="home-page" className="home">
+		<div id="home" className="home">
 			<div className="home__image"></div>
 			<div className="home__blog-item blog-item">
 				<div className="blog-item__header header">

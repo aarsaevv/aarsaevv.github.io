@@ -6,7 +6,7 @@ import github from "../assets/images/github.svg";
 
 function Contacts() {
 	return (
-		<div id="contacts-page" className="contacts">
+		<div id="contacts" className="contacts">
 			<div className="contacts__header">Contacts</div>
 			<div className="contacts__links links">
 				<div className="links__linkedin">
