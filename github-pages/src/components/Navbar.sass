@@ -4,6 +4,9 @@
     margin: 0 0 20px
     height: 50px
 
+    &__links
+        display: none
+
     &__button
         display: flex
         flex-direction: column
@@ -12,3 +15,21 @@
 .logo__image
     width: 50px
     height: 50px
+
+@media ( min-width: 500px)
+
+    .navigation
+        height: 77px
+        margin: 0 0 40px
+
+        &__links
+            display: flex
+            align-items: center
+            gap: 20px
+
+        &__button
+            display: none
+
+    .logo__image
+        width: 77px
+        height: 77px

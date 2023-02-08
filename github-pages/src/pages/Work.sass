@@ -5,12 +5,14 @@
         font-size: $mobile-font-lg
         margin: $mobile-indent-bottom
 
-.item
+.element
+
     &__title
         font-size: $mobile-font-md
-        margin: 0 0 5px 0
+        margin: 0 0 5px
     &__description
-        margin: 0 0 5px 0
+        margin: 0 0 5px
+        font-size: $mobile-font-sm
     &__links
         display: flex
         flex-direction: column
@@ -18,3 +20,33 @@
     &__links > *
         margin: 5px 0 0 0
         color: #f2f2f2
+
+@media ( min-width: 500px)
+
+.work
+    &__header
+        font-size: $desktop-font-lg
+        margin: $desktop-indent-bottom
+
+.list
+    display: flex
+    flex-wrap: wrap
+    gap: 20px
+
+.element
+    display: flex
+    flex-direction: column
+    width: 560px
+    gap: 0
+
+    &__title
+        font-size: $desktop-font-md
+        margin: $desktop-indent-bottom
+    &__description
+        margin: 0 0 20px
+        font-size: $desktop-font-sm
+    &__links
+        margin: $desktop-indent-bottom
+    &__links > *
+        font-size: $desktop-font-sm
+        margin: 8px 0 0 0
