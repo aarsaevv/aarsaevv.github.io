@@ -3,14 +3,30 @@ import photo from "../assets/images/photo.png";
 
 function Profile() {
 	return (
-		<div id="profile" className="profile">
+		<div className="profile">
 			<div className="profile__header">Profile</div>
-			<img className="profile__photo" src={photo} alt="that's me" />
-			<div className="profile__credentials credentials">
-				<div className="credentials__name">Evgeny Arsaev</div>
-				<div className="credentials__sphere">frontend developer</div>
+			<div className="profile__wrap wrap">
+				<img className="wrap__photo" src={photo} alt="that's me" />
+				<div className="wrap__credentials credentials">
+					<div className="credentials__name">
+						Hello, my name is Evgeny Arsaev
+					</div>
+					<div className="credentials__sphere">I'm frontend developer</div>
+				</div>
 			</div>
 			<div className="profile__information information">
+				<div className="information__block">
+					<div className="block__header">Personal data</div>
+					<div className="block__description">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid
+						at cupiditate quibusdam temporibus autem tempora dolor nulla
+						officiis vero voluptas porro placeat nesciunt debitis ab enim,
+						inventore qui dicta. Lorem ipsum, dolor sit amet consectetur
+						adipisicing elit. Nulla vero velit aliquid architecto, dolor
+						consequatur. Illum commodi rerum doloremque ab tempora ex, veritatis
+						nemo, in dolores cumque eveniet vel laborum!
+					</div>
+				</div>
 				<div className="information__block">
 					<div className="block__header">About me</div>
 					<div className="block__description">
@@ -31,18 +47,6 @@ function Profile() {
 						<div className="interests__tag">Biking</div>
 						<div className="interests__tag">Animals</div>
 						<div className="interests__tag">Guitar</div>
-					</div>
-				</div>
-				<div className="information__block">
-					<div className="block__header">Personal data</div>
-					<div className="block__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid
-						at cupiditate quibusdam temporibus autem tempora dolor nulla
-						officiis vero voluptas porro placeat nesciunt debitis ab enim,
-						inventore qui dicta. Lorem ipsum, dolor sit amet consectetur
-						adipisicing elit. Nulla vero velit aliquid architecto, dolor
-						consequatur. Illum commodi rerum doloremque ab tempora ex, veritatis
-						nemo, in dolores cumque eveniet vel laborum!
 					</div>
 				</div>
 			</div>

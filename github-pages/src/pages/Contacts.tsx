@@ -1,8 +1,12 @@
 import "./Contacts.sass";
-import linkedin from "../assets/images/linkedin.svg";
-import google from "../assets/images/google.svg";
-import telegram from "../assets/images/telegram.svg";
 import github from "../assets/images/github.svg";
+import githubSmall from "../assets/images/github.svg";
+import google from "../assets/images/google.svg";
+import googleSmall from "../assets/images/google.svg";
+import linkedin from "../assets/images/linkedin.svg";
+import linkedinSmall from "../assets/images/linkedin.svg";
+import telegram from "../assets/images/telegram.svg";
+import telegramSmall from "../assets/images/telegram.svg";
 
 function Contacts() {
 	return (

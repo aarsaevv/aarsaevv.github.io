@@ -5,9 +5,9 @@ import back from "../assets/images/back.svg";
 import contacts from "../assets/images/contacts.svg";
 import home from "../assets/images/home.svg";
 import logo from "../assets/images/logo.svg";
-import qr from "../assets/images/qr.svg";
 import navigation from "../assets/images/button-navigation.svg";
 import profile from "../assets/images/profile.svg";
+import qr from "../assets/images/qr.svg";
 import skills from "../assets/images/skills.svg";
 import work from "../assets/images/work.svg";
 

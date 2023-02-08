@@ -4,13 +4,19 @@
 
     &__image
         height: 225px
-        margin: 0 0 40px
+        margin: 0 0 20px
         background-color: #737373
+
+.wrapper
 
     &__blog-item
         height: 200px
         margin: 0 0 20px
         border: 2px solid #f2f2f2
+
+    &__blog-item-collapse
+        border: 2px solid #f2f2f2
+        margin: 0 0 20px
 
 .header
     display: flex
@@ -47,6 +53,42 @@
         margin-left: auto
         margin-top: auto
 
-.home__blog-item-collapse
-    border: 2px solid #f2f2f2
-    margin: 0 0 20px
+@media ( min-width: 500px)
+
+    .home
+
+        &__image
+            height: 400px
+
+    .wrapper
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+
+        &__blog-item
+            width: 552px
+            height: 340px
+            border: 4px solid #f2f2f2
+
+        &__blog-item-collapse
+            width: 552px
+            height: 35px
+            border: 4px solid #f2f2f2
+
+    .header
+        height: 35px
+
+        &__heading
+            padding: 7px 0 7px 10px
+            font-size: 35px
+
+    .body
+        gap: 20px
+        height: 283px
+        margin: 8px 6px 8px 6px
+
+        &__heading
+            font-size: $desktop-font-md
+
+        &__text
+            font-size: 40px
