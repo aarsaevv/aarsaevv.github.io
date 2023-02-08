@@ -3,8 +3,10 @@ import photo from "../assets/images/photo.png";
 
 function Profile() {
 	return (
-		<div className="profile">
-			<div className="profile__header">Profile</div>
+		<div id="profile" className="profile">
+			<div className="profile__header">
+				Prof<span>ile</span>
+			</div>
 			<div className="profile__wrap wrap">
 				<img className="wrap__photo" src={photo} alt="that's me" />
 				<div className="wrap__credentials credentials">

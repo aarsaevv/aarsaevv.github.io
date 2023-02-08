@@ -13,6 +13,7 @@
     &__description
         margin: 0 0 5px
         font-size: $mobile-font-sm
+        text-align: justify
     &__links
         display: flex
         flex-direction: column
@@ -31,7 +32,7 @@
 .list
     display: flex
     flex-wrap: wrap
-    gap: 20px
+    gap: 30px 20px
 
 .element
     display: flex
@@ -41,12 +42,14 @@
 
     &__title
         font-size: $desktop-font-md
-        margin: $desktop-indent-bottom
+        margin: 0 0 20px 0
     &__description
         margin: 0 0 20px
         font-size: $desktop-font-sm
+        text-align: justify
     &__links
-        margin: $desktop-indent-bottom
+        margin: 0
+        gap: 8px
     &__links > *
         font-size: $desktop-font-sm
-        margin: 8px 0 0 0
+        margin: 0

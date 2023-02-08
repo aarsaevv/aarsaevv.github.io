@@ -20,7 +20,7 @@ function Navbar() {
 	const filteredIDs = allIDs.filter((el) => el.id !== "root");
 	if (isActive) {
 		filteredIDs.forEach((el) => {
-			el.className += " hidden";
+			el.className = "hidden";
 		});
 	} else {
 		filteredIDs.forEach((el) => {
@@ -40,43 +40,75 @@ function Navbar() {
 						alt="Logo"
 					/>
 				</Link>
+				<div className="navigation__links link">
+					<div className="link__anchor anchor">
+						<Link to="/" className="anchor__link">
+							Home
+						</Link>
+						<img className="anchor__image" src={home} alt="Home" />
+					</div>
+					<div className="link__anchor anchor">
+						<Link to="/work" className="anchor__link">
+							Work
+						</Link>
+						<img className="anchor__image" src={work} alt="Work" />
+					</div>
+					<div className="link__anchor anchor">
+						<Link to="/skills" className="anchor__link">
+							Skills
+						</Link>
+						<img className="anchor__image" src={skills} alt="Skills" />
+					</div>
+					<div className="link__anchor anchor">
+						<Link to="/profile" className="anchor__link">
+							Profile
+						</Link>
+						<img className="anchor__image" src={profile} alt="Profile" />
+					</div>
+					<div className="link__anchor anchor">
+						<Link to="/contacts" className="anchor__link">
+							Contacts
+						</Link>
+						<img className="anchor__image" src={contacts} alt="Contacts" />
+					</div>
+				</div>
 				<div className="navigation__button button" onClick={toggleSidebar}>
 					<img className="button__menu" src={navigation} alt="Navigation" />
 				</div>
 			</div>
 			<div className={isActive ? "sidebar" : "hidden"}>
-				<div className="sidebar__element element" onClick={toggleSidebar}>
-					<img className="element__image" src={back} alt="Back" />
+				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
+					<img className="anchor__image" src={back} alt="Back" />
 				</div>
-				<div className="sidebar__element element">
-					<Link to="/" className="element__link" onClick={toggleSidebar}>
+				<div className="sidebar__anchor anchor">
+					<Link to="/" className="anchor__link" onClick={toggleSidebar}>
 						Home
 					</Link>
-					<img className="element__image" src={home} alt="Home" />
+					<img className="anchor__image" src={home} alt="Home" />
 				</div>
-				<div className="sidebar__element element" onClick={toggleSidebar}>
-					<Link to="/work" className="element__link">
+				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
+					<Link to="/work" className="anchor__link">
 						Work
 					</Link>
-					<img className="element__image" src={work} alt="Work" />
+					<img className="anchor__image" src={work} alt="Work" />
 				</div>
-				<div className="sidebar__element element" onClick={toggleSidebar}>
-					<Link to="/skills" className="element__link">
+				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
+					<Link to="/skills" className="anchor__link">
 						Skills
 					</Link>
-					<img className="element__image" src={skills} alt="Skills" />
+					<img className="anchor__image" src={skills} alt="Skills" />
 				</div>
-				<div className="sidebar__element element" onClick={toggleSidebar}>
-					<Link to="/profile" className="element__link">
+				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
+					<Link to="/profile" className="anchor__link">
 						Profile
 					</Link>
-					<img className="element__image" src={profile} alt="Profile" />
+					<img className="anchor__image" src={profile} alt="Profile" />
 				</div>
-				<div className="sidebar__element element" onClick={toggleSidebar}>
-					<Link to="/contacts" className="element__link">
+				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
+					<Link to="/contacts" className="anchor__link">
 						Contacts
 					</Link>
-					<img className="element__image" src={contacts} alt="Contacts" />
+					<img className="anchor__image" src={contacts} alt="Contacts" />
 				</div>
 			</div>
 		</div>

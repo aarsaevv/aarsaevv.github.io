@@ -6,7 +6,7 @@ import expandSmall from "../assets/images/button-expand.svg";
 
 function Home() {
 	return (
-		<div className="home">
+		<div id="home" className="home">
 			<div className="home__image"></div>
 			<div className="home__wrapper wrapper">
 				<div className="wrapper__blog-item blog-item">
@@ -20,8 +20,15 @@ function Home() {
 								<img src={crossSmall} alt="Button" />
 							</div>
 						</div>
-						<div className="button__cross">
-							<img src={crossSmall} alt="Button" />
+					</div>
+					<div className="blog-item__body body">
+						<div className="body__heading">First script</div>
+						<div className="body__text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+							lacinia, quam sed blandit accumsan, mauris leo ultricies.
+						</div>
+						<div className="body__button">
+							<img src={buttonSmall} alt="Go to" />
 						</div>
 					</div>
 				</div>

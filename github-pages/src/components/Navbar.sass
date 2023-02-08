@@ -9,9 +9,6 @@
     margin: 0 0 20px
     height: 50px
 
-    &__links
-        display: none
-
     &__button
         display: flex
         flex-direction: column
@@ -24,14 +21,15 @@
     cursor: pointer
 
 .sidebar
-    display: flex
-    flex-direction: column
-    align-items: flex-end
-    margin: 10px 0 0 0
-    gap: 20px
 
-.element
+    &__anchor
+        display: flex
+        gap: 5px
+
+.anchor
     display: flex
+    justify-content: flex-end
+    margin: $mobile-indent-bottom
     gap: 5px
 
     &__link
@@ -58,6 +56,9 @@
 
         &__button
             display: none
+
+    .anchor
+        margin: 0
 
     .logo__image
         width: 77px
