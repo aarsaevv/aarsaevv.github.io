@@ -9,17 +9,26 @@
     &__links
         display: grid
         justify-content: center
-        grid-template-columns: 60px 60px
+        grid-template-columns: repeat(2, 60px)
         grid-gap: 20px
 
-@media ( min-width: 500px)
+.contact-link
+    &__image
+        width: 60px
 
-.contacts
+@media screen and (min-width: 500px)
 
-    &__header
-        font-size: $desktop-font-lg
-        margin: $desktop-indent-bottom
+    .contacts
 
-    &__links
-        grid-template-columns: repeat(4, 110px)
-        grid-gap: 30px
+        &__header
+            font-size: $desktop-font-lg
+            margin: $desktop-indent-bottom
+
+        &__links
+            grid-template-columns: repeat(4, 110px)
+            grid-gap: 30px
+
+    .contact-link
+
+        &__image
+            width: 110px

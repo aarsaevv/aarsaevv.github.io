@@ -40,7 +40,11 @@ function Navbar() {
 						alt="Logo"
 					/>
 				</Link>
-				<div className="navigation__links link">
+				<div
+					className={
+						window.innerWidth > 500 ? "navigation__links link" : "hidden"
+					}
+				>
 					<div className="link__anchor anchor">
 						<Link to="/" className="anchor__link">
 							Home

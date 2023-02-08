@@ -26,7 +26,7 @@ function Skills() {
 				</div>
 				<div className="block__items item">
 					<img className="item__image" src={react} alt="react" />
-					<div className="item__text">
+					<div className="item__text text">
 						<div className="text__header">React</div>
 						<div className="text__description">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
@@ -42,7 +42,7 @@ function Skills() {
 				</div>
 				<div className="block__items item">
 					<img className="item__image" src={vue} alt="vue" />
-					<div className="item__text">
+					<div className="item__text text">
 						<div className="text__header">Vue</div>
 						<div className="text__description">
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
