@@ -1,5 +1,6 @@
 import "./Profile.sass";
 import photo from "../assets/images/photo.png";
+import TypewriterAnimation from "../components/TypewriterAnimation";
 
 function Profile() {
 	return (
@@ -11,7 +12,7 @@ function Profile() {
 				<img className="wrap__photo" src={photo} alt="that's me" />
 				<div className="wrap__credentials credentials">
 					<div className="credentials__name">
-						Hello, my name is Evgeny Arsaev
+						<TypewriterAnimation />
 					</div>
 					<div className="credentials__sphere">I'm frontend developer</div>
 				</div>
