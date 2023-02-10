@@ -5,16 +5,14 @@ import TypewriterAnimation from "../components/TypewriterAnimation";
 function Profile() {
 	return (
 		<div id="profile" className="profile">
-			<div className="profile__header">
-				Prof<span>ile</span>
-			</div>
+			<div className="profile__header">Profile</div>
 			<div className="profile__wrap wrap">
 				<img className="wrap__photo" src={photo} alt="that's me" />
 				<div className="wrap__credentials credentials">
 					<div className="credentials__name">
 						<TypewriterAnimation />
 					</div>
-					<div className="credentials__sphere">I'm frontend developer</div>
+					<div className="credentials__sphere">I'm a frontend developer</div>
 				</div>
 			</div>
 			<div className="profile__information information">
