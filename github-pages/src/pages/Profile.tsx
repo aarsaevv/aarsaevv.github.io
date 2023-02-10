@@ -44,12 +44,66 @@ function Profile() {
 				<div className="information__block">
 					<div className="block__header">Interests</div>
 					<div className="block__description interests">
-						<div className="interests__tag">Movies</div>
-						<div className="interests__tag">Tech</div>
-						<div className="interests__tag">Music</div>
-						<div className="interests__tag">Biking</div>
-						<div className="interests__tag">Animals</div>
-						<div className="interests__tag">Guitar</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="https://www.imdb.com/title/tt0175880/"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Movies
+							</a>
+						</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="https://www.youtube.com/watch?v=PqbB07n_uQ4"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Tech
+							</a>
+						</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="https://www.youtube.com/watch?v=na47wMFfQCo"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Music
+							</a>
+						</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="https://www.youtube.com/watch?v=o8CWp8ktFQM"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Biking
+							</a>
+						</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="https://www.youtube.com/watch?v=YBnHIZKVQkM"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Animals
+							</a>
+						</div>
+						<div className="interests__tag">
+							<a
+								className="tag__link"
+								href="http://www.prodipeguitars.com/nos-produits/guitares-classiques/4296-guitare-classique-primera.html"
+								target="_blank"
+								rel="noreferrer"
+							>
+								Guitar
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
