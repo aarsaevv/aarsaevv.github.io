@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8520a38a.css",
+    "main.js": "/static/js/main.259da12c.js",
+    "static/media/qr.svg": "/static/media/qr.67cd27ba9e7d751d42cb6cc60a12d78b.svg",
+    "static/media/vt323.woff": "/static/media/vt323.6e932f3d9bbe81802c91.woff",
+    "static/media/vt323.woff2": "/static/media/vt323.044786a7f9e7bbcb643b.woff2",
+    "static/media/google-big.svg": "/static/media/google-big.3960fe695b533dd466a0913658362f68.svg",
+    "static/media/photo.png": "/static/media/photo.9a77859b64a5e2711e16.png",
+    "static/media/telegram-big.svg": "/static/media/telegram-big.7467da9b1def4cd2e43b811915846ef8.svg",
+    "static/media/button-small.svg": "/static/media/button-small.a4070dd6f329e85ff3853edff54bfca6.svg",
+    "static/media/linkedin-big.svg": "/static/media/linkedin-big.149d28d48ade7cf755ea9d797cb5c469.svg",
+    "static/media/github-big.svg": "/static/media/github-big.a2a769b7262e7a3e72739c337a4529e7.svg",
+    "static/media/skills.svg": "/static/media/skills.fd5d52bd10f8d20b8e2e6382b5953ab5.svg",
+    "static/media/contacts.svg": "/static/media/contacts.b9ab826304b1b1d8c8e7ac7ae3762a97.svg",
+    "static/media/button-cross.svg": "/static/media/button-cross.834e2a181ea9442d03baad9370cb2e61.svg",
+    "static/media/back.svg": "/static/media/back.aac25fe02c3f38b3043c9ee1ee1e98f3.svg",
+    "static/media/logo.svg": "/static/media/logo.27b2c76f837400987176ef1bc358104c.svg",
+    "static/media/home.svg": "/static/media/home.a9ef77eb72c556d78d00165d59b531c9.svg",
+    "static/media/profile.svg": "/static/media/profile.cf99b53a0e7b0277963750ddcf2e738a.svg",
+    "static/media/work.svg": "/static/media/work.82556163e0f7de45c1ecaaaa3147d6f2.svg",
+    "static/media/button-expand.svg": "/static/media/button-expand.fb85d73154ac36d6117fb01ea27c48ea.svg",
+    "index.html": "/index.html",
+    "static/media/button-navigation.svg": "/static/media/button-navigation.e8cff5421f48b07c50aeea5199248d61.svg",
+    "static/media/button-collapse.svg": "/static/media/button-collapse.3f22ce798c1801583fe0756be027c336.svg",
+    "main.8520a38a.css.map": "/static/css/main.8520a38a.css.map",
+    "main.259da12c.js.map": "/static/js/main.259da12c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8520a38a.css",
+    "static/js/main.259da12c.js"
+  ]
+}
