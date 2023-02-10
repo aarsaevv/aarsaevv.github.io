@@ -1,0 +1,69 @@
+@import '../variables'
+
+@media screen and (max-width: 500px)
+    .typewriter
+        &__line--1
+            display: none
+
+@media screen and (min-width: 500px)
+
+    .typewriter
+        &__line--1, &__line--2
+            font-size: 70px
+            position: relative
+            width: max-content
+
+        &__line--2
+            top: 12px
+            right: 3px
+
+        &__line--1::before, &__line--2::before, &__line--1::after, &__line--2::after
+            content: ""
+            position: absolute
+            top: 0
+            right: 0
+            bottom: 0
+            left: 0
+
+        &__line--1::before
+            content: ""
+            background: #0d0d0d
+            height: 53px
+            animation: typewriter $tw-line--1-duration steps($tw-line--1-words) 500ms forwards
+
+        &__line--1::after
+            position: absolute
+            top: 42px
+            width: 0.44em
+            height: 0.125em
+            background: #f2f2f2
+            animation: typewriter $tw-line--1-duration steps($tw-line--1-words) 500ms forwards, hide-caret 0s ease-in 5s forwards
+
+        &__line--2::before
+            background: #0d0d0d
+            height: 53px
+            animation: typewriter $tw-line--2-duration steps($tw-line--2-words) 500ms forwards
+            animation-delay: 5s
+
+        &__line--2::after
+            position: absolute
+            top: 42px
+            width: 0.44em
+            height: 0.125em
+            background: #0d0d0d
+            animation: typewriter $tw-line--2-duration steps($tw-line--2-words) 500ms forwards, show-caret 0s ease-in 5s forwards
+            animation-delay: 5s
+
+    @keyframes typewriter
+        to
+            left: 100%
+
+    @keyframes hide-caret
+        to
+            visibility: hidden
+            width: 0
+            height: 0
+
+    @keyframes show-caret
+        to
+            background: #f2f2f2
