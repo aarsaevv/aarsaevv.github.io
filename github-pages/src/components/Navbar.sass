@@ -9,6 +9,9 @@
     margin: 0 0 20px
     height: 50px
 
+    &__links
+        display: none
+
     &__button
         display: flex
         flex-direction: column
@@ -31,14 +34,21 @@
     display: flex
     justify-content: flex-end
     margin: $mobile-indent-bottom
-    gap: 5px
 
     &__link
+        display: flex
+        gap: 5px
         font-size: $mobile-font-md
         text-decoration: none
         text-transform: uppercase
         color: #f2f2f2
 
+    &__image
+        height: 24px
+        width: 24px
+        cursor: pointer
+
+.link
     &__image
         height: 24px
         width: 24px
@@ -61,6 +71,7 @@
     .anchor
         margin: 0
 
-    .logo__image
-        width: 77px
-        height: 77px
+    .logo
+        &__image
+            width: 77px
+            height: 77px
