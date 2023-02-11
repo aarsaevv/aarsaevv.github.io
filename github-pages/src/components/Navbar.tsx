@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.sass";
@@ -36,6 +37,39 @@ function Navbar() {
 		}
 	})();
 
+	const links = [
+		{
+			linkName: "Home",
+			linkSrc: home,
+			linkAlt: "Home",
+			linkPath: "/",
+		},
+		{
+			linkName: "Works",
+			linkSrc: work,
+			linkAlt: "Works",
+			linkPath: "/works",
+		},
+		{
+			linkName: "Skills",
+			linkSrc: skills,
+			linkAlt: "Skills",
+			linkPath: "/skills",
+		},
+		{
+			linkName: "Profile",
+			linkSrc: profile,
+			linkAlt: "Profile",
+			linkPath: "/profile",
+		},
+		{
+			linkName: "Contacts",
+			linkSrc: contacts,
+			linkAlt: "Contacts",
+			linkPath: "/contacts",
+		},
+	];
+
 	return (
 		<div className="">
 			<div className={sidebarIsActive ? "hidden" : "navigation"}>
@@ -47,36 +81,18 @@ function Navbar() {
 					/>
 				</Link>
 				<div className="navigation__links link">
-					<div className="link__anchor anchor">
-						<Link to="/" className="anchor__link link">
-							Home
-							<img className="link__image" src={home} alt="Home" />
-						</Link>
-					</div>
-					<div className="link__anchor anchor">
-						<Link to="/work" className="anchor__link link">
-							Work
-							<img className="link__image" src={work} alt="Work" />
-						</Link>
-					</div>
-					<div className="link__anchor anchor">
-						<Link to="/skills" className="anchor__link link">
-							Skills
-							<img className="link__image" src={skills} alt="Skills" />
-						</Link>
-					</div>
-					<div className="link__anchor anchor">
-						<Link to="/profile" className="anchor__link link">
-							Profile
-							<img className="link__image" src={profile} alt="Profile" />
-						</Link>
-					</div>
-					<div className="link__anchor anchor">
-						<Link to="/contacts" className="anchor__link link">
-							Contacts
-							<img className="link__image" src={contacts} alt="Contacts" />
-						</Link>
-					</div>
+					{links.map((link) => (
+						<div key={link.linkName} className="link__anchor anchor">
+							<Link to={link.linkPath} className="anchor__link link">
+								{link.linkName}
+								<img
+									className="link__image"
+									src={link.linkSrc}
+									alt={link.linkAlt}
+								/>
+							</Link>
+						</div>
+					))}
 				</div>
 				<div className="navigation__button button" onClick={toggleSidebar}>
 					<img className="button__menu" src={navigation} alt="Navigation" />
@@ -86,36 +102,18 @@ function Navbar() {
 				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
 					<img className="anchor__image" src={back} alt="Back" />
 				</div>
-				<div className="sidebar__anchor anchor">
-					<Link to="/" className="anchor__link link" onClick={toggleSidebar}>
-						Home
-						<img className="link__image" src={home} alt="Home" />
-					</Link>
-				</div>
-				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
-					<Link to="/work" className="anchor__link link">
-						Work
-						<img className="link__image" src={work} alt="Work" />
-					</Link>
-				</div>
-				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
-					<Link to="/skills" className="anchor__link link">
-						Skills
-						<img className="link__image" src={skills} alt="Skills" />
-					</Link>
-				</div>
-				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
-					<Link to="/profile" className="anchor__link link">
-						Profile
-						<img className="link__image" src={profile} alt="Profile" />
-					</Link>
-				</div>
-				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
-					<Link to="/contacts" className="anchor__link link">
-						Contacts
-						<img className="link__image" src={contacts} alt="Contacts" />
-					</Link>
-				</div>
+				{links.map((link) => (
+					<div key={link.linkName} className="sidebar__anchor anchor">
+						<Link to={link.linkPath} className="anchor__link link">
+							{link.linkName}
+							<img
+								className="link__image"
+								src={link.linkSrc}
+								alt={link.linkAlt}
+							/>
+						</Link>
+					</div>
+				))}
 			</div>
 		</div>
 	);

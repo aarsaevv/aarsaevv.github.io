@@ -3,6 +3,7 @@ import collapseSmall from "../assets/images/button-collapse.svg";
 import crossSmall from "../assets/images/button-cross.svg";
 import buttonSmall from "../assets/images/button-small.svg";
 import expandSmall from "../assets/images/button-expand.svg";
+import buttonBig from "../assets/images/button-big.svg";
 
 function Home() {
 	return (
@@ -29,6 +30,9 @@ function Home() {
 						</div>
 						<div className="body__button">
 							<img src={buttonSmall} alt="Go to" />
+						</div>
+						<div className="body__button--big">
+							<img src={buttonBig} alt="Go to" />
 						</div>
 					</div>
 				</div>
@@ -66,6 +70,9 @@ function Home() {
 						<div className="body__button">
 							<img src={buttonSmall} alt="Go to" />
 						</div>
+						<div className="body__button--big">
+							<img src={buttonBig} alt="Go to" />
+						</div>
 					</div>
 				</div>
 				<div className="wrapper__blog-item blog-item">
@@ -88,6 +95,9 @@ function Home() {
 						</div>
 						<div className="body__button">
 							<img src={buttonSmall} alt="Go to" />
+						</div>
+						<div className="body__button--big">
+							<img src={buttonBig} alt="Go to" />
 						</div>
 					</div>
 				</div>

@@ -3,7 +3,7 @@ import "./Work.sass";
 function Work() {
 	return (
 		<div id="work" className="work">
-			<div className="work__header">Work</div>
+			<div className="work__header">Works</div>
 			<div className="work__list list">
 				<div className="list__element element">
 					<div className="element__title">Personal blog</div>
