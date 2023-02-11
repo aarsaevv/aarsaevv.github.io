@@ -103,7 +103,11 @@ function Navbar() {
 					<img className="anchor__image" src={back} alt="Back" />
 				</div>
 				{links.map((link) => (
-					<div key={link.linkName} className="sidebar__anchor anchor">
+					<div
+						onClick={toggleSidebar}
+						key={link.linkName}
+						className="sidebar__anchor anchor"
+					>
 						<Link to={link.linkPath} className="anchor__link link">
 							{link.linkName}
 							<img
