@@ -54,8 +54,8 @@ function Navbar() {
 						</Link>
 					</div>
 					<div className="link__anchor anchor">
-						<Link to="/work" className="anchor__link link">
-							Work
+						<Link to="/works" className="anchor__link link">
+							Works
 							<img className="link__image" src={work} alt="Work" />
 						</Link>
 					</div>
@@ -93,8 +93,8 @@ function Navbar() {
 					</Link>
 				</div>
 				<div className="sidebar__anchor anchor" onClick={toggleSidebar}>
-					<Link to="/work" className="anchor__link link">
-						Work
+					<Link to="/works" className="anchor__link link">
+						Works
 						<img className="link__image" src={work} alt="Work" />
 					</Link>
 				</div>
