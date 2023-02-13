@@ -14,7 +14,7 @@ function Profile() {
 					<div className="credentials__name">
 						<TypewriterAnimation />
 					</div>
-					<div className="credentials__sphere">I'm frontend developer</div>
+					<div className="credentials__sphere">I'm a frontend developer</div>
 				</div>
 			</div>
 			<div className="profile__information information">

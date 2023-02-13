@@ -1,6 +1,7 @@
 @import '../variables'
 
-.home
+.hidden
+    display: none
 
 .image
     margin: 0 0 33px
@@ -38,17 +39,33 @@
 
 .button
 
-    &__collapse
+    &__collapse, &__expand, &__cross
+        width: 21px
+        height: 21px
+        background-size: 21px 21px
+        border: none
+
         &--big
+            width: 27px
+            height: 27px
+            background-size: 27px 27px
+            border: none
             display: none
+
+    &__collapse
+        background: url(../assets/images/button-collapse.svg)
+        &--big
+            background: url(../assets/images/button-collapse-big.svg)
 
     &__cross
+        background: url(../assets/images/button-cross.svg)
         &--big
-            display: none
+            background: url(../assets/images/button-cross-big.svg)
 
     &__expand
+        background: url(../assets/images/button-expand.svg)
         &--big
-            display: none
+            background: url(../assets/images/button-expand-big.svg)
 
 .body
     display: flex
@@ -65,14 +82,22 @@
         text-align: justify
 
     &__button
+        width: 82px
+        height: 22px
+        background: url(../assets/images/button-small.svg)
+        background-size: 82px 22px
+        border: none
         margin-left: auto
         margin-top: auto
         &--big
+            width: 112px
+            height: 36px
+            background: url(../assets/images/button-big.svg)
+            background-size: 112px 36px
+            border: none
             display: none
 
 @media screen and (min-width: 500px)
-
-    .home
 
     .image
 

@@ -24,7 +24,7 @@ function Contacts() {
 				</div>
 				<div className="contacts-links__contact-link contact-link">
 					<a
-						href="mailto:arsaevgeny@gmail.com"
+						href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=arsaevgeny@gmail.com"
 						target="_blank"
 						rel="noreferrer"
 					>
