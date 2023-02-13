@@ -21,6 +21,7 @@
         flex-direction: column
 
 .credentials
+
     &__name
         font-size: $mobile-font-md
         line-height: 0.85
@@ -34,7 +35,24 @@
     &__block
         margin: $mobile-indent-bottom
 
+.description
+
+    &__list
+        list-style: square
+
+        li
+            line-height: 90%
+
+    &__link
+        color: #f0bcd4
+        padding: 0 0 0 6px
+        text-transform: uppercase
+        text-decoration: none
+    :hover
+        color: #add9f4
+
 .block
+
     &__header
         font-size: $mobile-font-md
         margin: 0 0 5px 0
@@ -62,8 +80,7 @@
         color: #f2f2f2
 
     &__link:hover
-        color: #bfff29
-        transition: 0.3s
+        color: #add9f4
 
 @media screen and (min-width: 500px)
 
@@ -103,7 +120,13 @@
             flex-direction: column
             width: 560px
 
+    .description
+
+        &__link
+            padding: 0 0 0 10px
+
     .block
+
         &__header
             font-size: $desktop-font-md
             padding: 0

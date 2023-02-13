@@ -14,31 +14,43 @@ function Profile() {
 					<div className="credentials__name">
 						<TypewriterAnimation />
 					</div>
-					<div className="credentials__sphere">I'm frontend developer</div>
+					<div className="credentials__sphere">I'm a frontend developer</div>
 				</div>
 			</div>
 			<div className="profile__information information">
 				<div className="information__block">
 					<div className="block__header">Personal data</div>
-					<div className="block__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aliquid
-						at cupiditate quibusdam temporibus autem tempora dolor nulla
-						officiis vero voluptas porro placeat nesciunt debitis ab enim,
-						inventore qui dicta. Lorem ipsum, dolor sit amet consectetur
-						adipisicing elit. Nulla vero velit aliquid architecto, dolor
-						consequatur. Illum commodi rerum doloremque ab tempora ex, veritatis
-						nemo, in dolores cumque eveniet vel laborum!
+					<div className="block__description description">
+						<ul className="description__list">
+							<li>Country: Republic of Kazakhstan</li>
+							<li>City: Karaganda</li>
+							<li>Age: 26</li>
+							<li>Job: Open to work!</li>
+							<li>Russian: native</li>
+							<li>English: advanced</li>
+						</ul>
+						Feel free to write me on LinkedIn, Gmail, Telegram <br />
+						CHECK MY CONTACTS
+						<a className="description__link" href="/contacts">
+							here
+						</a>
+						<br />
 					</div>
 				</div>
 				<div className="information__block">
 					<div className="block__header">About me</div>
 					<div className="block__description">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-						Dignissimos reprehenderit recusandae hic. Minus explicabo ipsam
-						voluptatem accusantium? Quisquam exercitationem maiores ipsam
-						sapiente dolores autem asperiores quidem ea assumenda nihil ab iure
-						consectetur, est accusantium in facere earum consequatur error
-						necessitatibus!
+						I was born in 1996 in the city of Komsomolsk-on-Amur in the
+						easternmost part of Russia. Since childhood, I was very fond of
+						literature and everything complex, scientific and not so. My friend
+						from here, by the way, introduced me to the world of Frontend
+						Development, (Volodya, if you are reading this, respect to you). I
+						love to develop fast, light, beautiful and convenient applications
+						for everyday use. I am fond of bicycles, animals, playing the guitar
+						and regularly try to find new challenges and master everything in
+						the world. Not having much experience, I want to achieve everything
+						myself and help people in a variety of things. And I really hope
+						that this will be better than working as a retail salesman.
 					</div>
 				</div>
 				<div className="information__block">

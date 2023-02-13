@@ -1,23 +1,22 @@
 @import '../variables'
 
-.home
-
 .image
     margin: 0 0 33px
 
     &__main
         width: 330px
 
+.home
+    &__wrapper
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
 .wrapper
 
     &__blog-item
+        width: 327px
         height: 200px
-        margin: 0 0 20px
-        border: 2px solid #f2f2f2
-
-    &__blog-item-collapse
-        border: 2px solid #f2f2f2
-        margin: 0 0 20px
 
 .header
     display: flex
@@ -25,6 +24,7 @@
     align-items: center
     height: 25px
     background-color: #f2f2f2
+    border: 2px solid #f2f2f2
 
     &__heading
         display: flex
@@ -38,24 +38,39 @@
 
 .button
 
-    &__collapse
+    &__collapse, &__expand, &__cross
+        width: 21px
+        height: 21px
+        background-size: 21px 21px
+        border: none
+
         &--big
+            width: 27px
+            height: 27px
+            background-size: 27px 27px
+            border: none
             display: none
+
+    &__collapse
+        background: url(../assets/images/button-collapse.svg)
+        &--big
+            background: url(../assets/images/button-collapse-big.svg)
 
     &__cross
+        background: url(../assets/images/button-cross.svg)
         &--big
-            display: none
+            background: url(../assets/images/button-cross-big.svg)
 
     &__expand
+        background: url(../assets/images/button-expand.svg)
         &--big
-            display: none
+            background: url(../assets/images/button-expand-big.svg)
 
 .body
     display: flex
     flex-direction: column
     gap: 10px
-    margin: 10px 8px 10px 8px
-    height: 153px
+    margin: 10px 8px
 
     &__heading
         font-size: $mobile-font-md
@@ -65,14 +80,21 @@
         text-align: justify
 
     &__button
-        margin-left: auto
-        margin-top: auto
+        max-width: 82px
+        min-height: 22px
+        background: url(../assets/images/button-small.svg)
+        background-size: 82px 22px
+        border: none
+
         &--big
+            max-width: 112px
+            min-height: 36px
+            background: url(../assets/images/button-big.svg)
+            background-size: 112px 36px
+            border: none
             display: none
 
 @media screen and (min-width: 500px)
-
-    .home
 
     .image
 
@@ -80,22 +102,14 @@
             width: 1140px
 
     .wrapper
-        display: flex
-        justify-content: space-between
-        flex-wrap: wrap
 
         &__blog-item
             width: 552px
             height: 340px
-            border: 4px solid #f2f2f2
-
-        &__blog-item-collapse
-            width: 552px
-            height: 35px
-            border: 4px solid #f2f2f2
 
     .header
         height: 35px
+        border: 4px solid #f2f2f2
 
         &__heading
             padding: 7px 0 7px 10px
@@ -120,8 +134,8 @@
 
     .body
         gap: 20px
-        height: 283px
-        margin: 8px 6px 8px 6px
+        height: 0px
+        margin: 8px 6px
 
         &__heading
             font-size: $desktop-font-md
@@ -131,7 +145,6 @@
 
         &__button
             display: none
+
             &--big
                 display: block
-                margin-left: auto
-                margin-top: auto
