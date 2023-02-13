@@ -16,9 +16,9 @@
         margin: 0 0 20px
         border: 2px solid #f2f2f2
 
-    &__blog-item-collapse
-        border: 2px solid #f2f2f2
-        margin: 0 0 20px
+        &--collapsed
+            border: 2px solid #f2f2f2
+            margin: 0 0 20px
 
 .header
     display: flex
@@ -97,6 +97,11 @@
             border: none
             display: none
 
+.blog-item
+
+    &__body
+        // display: none ///
+
 @media screen and (min-width: 500px)
 
     .image
@@ -114,10 +119,10 @@
             height: 340px
             border: 4px solid #f2f2f2
 
-        &__blog-item-collapse
-            width: 552px
-            height: 35px
-            border: 4px solid #f2f2f2
+            &--collapsed
+                width: 552px
+                height: 35px
+                border: 4px solid #f2f2f2
 
     .header
         height: 35px
@@ -156,6 +161,7 @@
 
         &__button
             display: none
+
             &--big
                 display: block
                 margin-left: auto

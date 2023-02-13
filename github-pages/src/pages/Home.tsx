@@ -1,7 +1,6 @@
 // @ts-nocheck
+import { useState } from "react";
 import "./Home.sass";
-import buttonSmall from "../assets/images/button-small.svg";
-import buttonBig from "../assets/images/button-big.svg";
 import welcome from "../assets/images/welcome.gif";
 
 function Home() {
@@ -16,8 +15,10 @@ function Home() {
 						<div className="header__heading">Blog item(1)</div>
 						<div className="header__button button">
 							<button className="button__collapse" alt="Collapse" />
-							<button className="button__cross" alt="Close" />
 							<button className="button__collapse--big" alt="Collapse" />
+							<button className="button__expand" alt="Expand" />
+							<button className="button__expand--big" alt="Expand" />
+							<button className="button__cross" alt="Close" />
 							<button className="button__cross--big" alt="Close" />
 						</div>
 					</div>
@@ -31,13 +32,15 @@ function Home() {
 						<button className="body__button--big" alt="Go to" />
 					</div>
 				</div>
-				<div className="wrapper__blog-item-collapse">
+				<div className="wrapper__blog-item--collapsed">
 					<div className="blog-item__header header">
 						<div className="header__heading">Blog item(2)</div>
 						<div className="header__button button">
+							<button className="button__collapse" alt="Collapse" />
+							<button className="button__collapse--big" alt="Collapse" />
 							<button className="button__expand" alt="Expand" />
-							<button className="button__cross" alt="Close" />
 							<button className="button__expand--big" alt="Expand" />
+							<button className="button__cross" alt="Close" />
 							<button className="button__cross--big" alt="Close" />
 						</div>
 					</div>
