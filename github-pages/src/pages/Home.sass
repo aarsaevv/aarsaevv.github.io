@@ -1,24 +1,22 @@
 @import '../variables'
 
-.hidden
-    display: none
-
 .image
     margin: 0 0 33px
 
     &__main
         width: 330px
 
+.home
+    &__wrapper
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+
 .wrapper
 
     &__blog-item
+        width: 327px
         height: 200px
-        margin: 0 0 20px
-        border: 2px solid #f2f2f2
-
-        &--collapsed
-            border: 2px solid #f2f2f2
-            margin: 0 0 20px
 
 .header
     display: flex
@@ -26,6 +24,7 @@
     align-items: center
     height: 25px
     background-color: #f2f2f2
+    border: 2px solid #f2f2f2
 
     &__heading
         display: flex
@@ -71,8 +70,7 @@
     display: flex
     flex-direction: column
     gap: 10px
-    margin: 10px 8px 10px 8px
-    height: 153px
+    margin: 10px 8px
 
     &__heading
         font-size: $mobile-font-md
@@ -82,25 +80,19 @@
         text-align: justify
 
     &__button
-        width: 82px
-        height: 22px
+        max-width: 82px
+        min-height: 22px
         background: url(../assets/images/button-small.svg)
         background-size: 82px 22px
         border: none
-        margin-left: auto
-        margin-top: auto
+
         &--big
-            width: 112px
-            height: 36px
+            max-width: 112px
+            min-height: 36px
             background: url(../assets/images/button-big.svg)
             background-size: 112px 36px
             border: none
             display: none
-
-.blog-item
-
-    &__body
-        // display: none ///
 
 @media screen and (min-width: 500px)
 
@@ -110,22 +102,14 @@
             width: 1140px
 
     .wrapper
-        display: flex
-        justify-content: space-between
-        flex-wrap: wrap
 
         &__blog-item
             width: 552px
             height: 340px
-            border: 4px solid #f2f2f2
-
-            &--collapsed
-                width: 552px
-                height: 35px
-                border: 4px solid #f2f2f2
 
     .header
         height: 35px
+        border: 4px solid #f2f2f2
 
         &__heading
             padding: 7px 0 7px 10px
@@ -150,8 +134,8 @@
 
     .body
         gap: 20px
-        height: 283px
-        margin: 8px 6px 8px 6px
+        height: 0px
+        margin: 8px 6px
 
         &__heading
             font-size: $desktop-font-md
@@ -164,5 +148,3 @@
 
             &--big
                 display: block
-                margin-left: auto
-                margin-top: auto

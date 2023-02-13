@@ -35,6 +35,22 @@
     &__block
         margin: $mobile-indent-bottom
 
+.description
+
+    &__list
+        list-style: square
+
+        li
+            line-height: 90%
+
+    &__link
+        color: #f0bcd4
+        padding: 0 0 0 6px
+        text-transform: uppercase
+        text-decoration: none
+    :hover
+        color: #add9f4
+
 .block
 
     &__header
@@ -65,7 +81,6 @@
 
     &__link:hover
         color: #add9f4
-        // transition: 0.3s
 
 @media screen and (min-width: 500px)
 
@@ -104,6 +119,11 @@
             display: flex
             flex-direction: column
             width: 560px
+
+    .description
+
+        &__link
+            padding: 0 0 0 10px
 
     .block
 

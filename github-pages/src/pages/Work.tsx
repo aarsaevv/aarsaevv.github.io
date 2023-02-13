@@ -8,10 +8,16 @@ function Work() {
 				<div className="list__element element">
 					<div className="element__title">Personal blog</div>
 					<div className="element__description">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Reprehenderit blanditiis sequi dolores, sapiente similique sed quis
-						quaerat ad voluptatibus voluptas, veritatis temporibus numquam
-						laudantium perferendis quisquam inventore assumenda, eveniet ab?
+						This site you are currently on was made specifically for practicing
+						React skills. It is very simple, but was made right after the
+						transition from Vue. Not everything went smoothly, unfortunately,
+						there were some difficulties with a personal blog, which will appear
+						a little later. This site is hosted on Github Pages. There is also
+						an interesting story with this - I had to quickly create a 404 page
+						due to the lack of SPA support. In general, the stack is, if
+						possible, TypeScript, pure React, Sass. It was made in the shortest
+						possible time - in 4 days, along with the design and some
+						functionality. I hope you will enjoy.
 					</div>
 					<div className="element__links links">
 						<a
