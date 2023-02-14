@@ -49,39 +49,39 @@ function Navbar() {
 
 	const links = [
 		{
-			linkName: "Home",
-			linkSrc: home,
-			linkSrcOnHover: homeColor,
-			linkAlt: "Home",
-			linkPath: "/",
+			title: "Home",
+			picture: home,
+			pictureOnHover: homeColor,
+			alt: "Home",
+			path: "/",
 		},
 		{
-			linkName: "Works",
-			linkSrc: work,
-			linkSrcOnHover: workColor,
-			linkAlt: "Works",
-			linkPath: "/works",
+			title: "Works",
+			picture: work,
+			pictureOnHover: workColor,
+			alt: "Works",
+			path: "/works",
 		},
 		{
-			linkName: "Skills",
-			linkSrc: skills,
-			linkSrcOnHover: skillsColor,
-			linkAlt: "Skills",
-			linkPath: "/skills",
+			title: "Skills",
+			picture: skills,
+			pictureOnHover: skillsColor,
+			alt: "Skills",
+			path: "/skills",
 		},
 		{
-			linkName: "Profile",
-			linkSrc: profile,
-			linkSrcOnHover: profileColor,
-			linkAlt: "Profile",
-			linkPath: "/profile",
+			title: "Profile",
+			picture: profile,
+			pictureOnHover: profileColor,
+			alt: "Profile",
+			path: "/profile",
 		},
 		{
-			linkName: "Contacts",
-			linkSrc: contacts,
-			linkSrcOnHover: contactsColor,
-			linkAlt: "Contacts",
-			linkPath: "/contacts",
+			title: "Contacts",
+			picture: contacts,
+			pictureOnHover: contactsColor,
+			alt: "Contacts",
+			path: "/contacts",
 		},
 	];
 
@@ -97,32 +97,32 @@ function Navbar() {
 				</Link>
 				<div className="navigation__links link">
 					{links.map((link) => (
-						<div key={link.linkName} className="link__anchor anchor">
+						<div key={link.title} className="link__anchor anchor">
 							<Link
-								to={link.linkPath}
+								to={link.path}
 								onMouseOver={(e) => {
 									if (e.target.children[0]) {
-										e.target.children[0].src = link.linkSrcOnHover;
+										e.target.children[0].src = link.pictureOnHover;
 									}
 								}}
 								onMouseOut={(e) => {
 									if (e.target.children[0]) {
-										e.target.children[0].src = link.linkSrc;
+										e.target.children[0].src = link.picture;
 									}
 								}}
 								className="anchor__link link"
 							>
-								{link.linkName}
+								{link.title}
 								<img
 									onMouseOver={(e) => {
-										e.currentTarget.src = link.linkSrcOnHover;
+										e.currentTarget.src = link.pictureOnHover;
 									}}
 									onMouseOut={(e) => {
-										e.currentTarget.src = link.linkSrc;
+										e.currentTarget.src = link.picture;
 									}}
 									className="link__image"
-									src={link.linkSrc}
-									alt={link.linkAlt}
+									src={link.picture}
+									alt={link.alt}
 								/>
 							</Link>
 						</div>
@@ -139,16 +139,12 @@ function Navbar() {
 				{links.map((link) => (
 					<div
 						onClick={toggleSidebar}
-						key={link.linkName}
+						key={link.title}
 						className="sidebar__anchor anchor"
 					>
-						<Link to={link.linkPath} className="anchor__link link">
-							{link.linkName}
-							<img
-								className="link__image"
-								src={link.linkSrc}
-								alt={link.linkAlt}
-							/>
+						<Link to={link.path} className="anchor__link link">
+							{link.title}
+							<img className="link__image" src={link.picture} alt={link.alt} />
 						</Link>
 					</div>
 				))}

@@ -1,24 +1,32 @@
+//@ts-nocheck
 import { Route, Routes } from "react-router";
+import { useLocation } from "react-router";
+import { AnimatePresence, motion } from "framer-motion";
 import "./App.sass";
 import Navbar from "./components/Navbar";
-import Contacts from "./pages/Contacts";
 import Home from "./pages/Home";
-import Profile from "./pages/Profile";
-import Skills from "./pages/Skills";
 import Work from "./pages/Work";
+import Skills from "./pages/Skills";
+import Profile from "./pages/Profile";
+import Contacts from "./pages/Contacts";
 
 function App() {
+	const location = useLocation();
 	return (
-		<div className="container">
-			<Navbar />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/works" element={<Work />} />
-				<Route path="/skills" element={<Skills />} />
-				<Route path="/profile" element={<Profile />} />
-				<Route path="/contacts" element={<Contacts />} />
-			</Routes>
-		</div>
+		<AnimatePresence>
+			<div className="container">
+				<Navbar key="navbar" />
+				<AnimatePresence exitBeforeEnter>
+					<Routes location={location} key={location.pathname}>
+						<Route path="/" element={<Home />} />
+						<Route path="/works" element={<Work />} />
+						<Route path="/skills" element={<Skills />} />
+						<Route path="/profile" element={<Profile />} />
+						<Route path="/contacts" element={<Contacts />} />
+					</Routes>
+				</AnimatePresence>
+			</div>
+		</AnimatePresence>
 	);
 }
 export default App;

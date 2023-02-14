@@ -1,8 +1,21 @@
+//@ts-nocheck
+import { motion } from "framer-motion";
 import "./Work.sass";
 
 function Work() {
 	return (
-		<div id="work" className="work">
+		<motion.div
+			id="work"
+			className="work"
+			initial={{ opacity: 0 }}
+			animate={{
+				opacity: [1, Math.random(), Math.random(), Math.random(), 1],
+			}}
+			exit={{
+				opacity: 0,
+			}}
+			transition={{ duration: 0.5 }}
+		>
 			<div className="work__header">Works</div>
 			<div className="work__list list">
 				<div className="list__element element">
@@ -117,7 +130,7 @@ function Work() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 }
 export default Work;
