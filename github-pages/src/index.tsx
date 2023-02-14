@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import "normalize.css";
 import "./index.sass";
 import App from "./App";
@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 	<React.StrictMode>
-		<BrowserRouter>
+		<Router>
 			<App />
-		</BrowserRouter>
+		</Router>
 	</React.StrictMode>,
 );

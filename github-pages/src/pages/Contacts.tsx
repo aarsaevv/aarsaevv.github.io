@@ -1,3 +1,5 @@
+//@ts-nocheck
+import { motion } from "framer-motion";
 import "./Contacts.sass";
 import github from "../assets/images/github-big.svg";
 import google from "../assets/images/google-big.svg";
@@ -6,7 +8,18 @@ import telegram from "../assets/images/telegram-big.svg";
 
 function Contacts() {
 	return (
-		<div id="contacts" className="contacts">
+		<motion.div
+			id="contacts"
+			className="contacts"
+			initial={{ opacity: 0 }}
+			animate={{
+				opacity: [1, Math.random(), Math.random(), Math.random(), 1],
+			}}
+			exit={{
+				opacity: 0,
+			}}
+			transition={{ duration: 0.5 }}
+		>
 			<div className="contacts__header">Contacts</div>
 			<div className="contacts__links contact-links">
 				<div className="contacts-links__contact-link contact-link">
@@ -50,7 +63,7 @@ function Contacts() {
 					</a>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 }
 export default Contacts;
