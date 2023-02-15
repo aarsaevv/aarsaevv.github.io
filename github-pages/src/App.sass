@@ -2,15 +2,24 @@
 
 @keyframes flicker
     from
-        opacity: 0.85
+        opacity: 0.75
     to
+        opacity: 0.90
+
+@keyframes heating
+    0%
+        opacity: 0.90
+    50%
+        opacity: 0.75
+    100%
         opacity: 1
 
 .container
     width: 330px
     padding: 20px 15px
     margin: 0 auto
-    animation: flicker 100ms infinite
+    animation: flicker 100ms 50, heating 0.7s
+    animation-delay: 0s, 5s
     &::before
 
         content: " "
