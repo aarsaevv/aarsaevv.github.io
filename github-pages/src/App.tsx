@@ -1,7 +1,7 @@
 //@ts-nocheck
 import { Route, Routes } from "react-router";
 import { useLocation } from "react-router";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence } from "framer-motion";
 import "./App.sass";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
@@ -10,7 +10,7 @@ import Skills from "./pages/Skills";
 import Profile from "./pages/Profile";
 import Contacts from "./pages/Contacts";
 
-function App() {
+function App(props) {
 	const location = useLocation();
 	return (
 		<AnimatePresence>
@@ -20,7 +20,7 @@ function App() {
 					<Routes location={location} key={location.pathname}>
 						<Route path="/" element={<Home />} />
 						<Route path="/works" element={<Work />} />
-						<Route path="/skills" element={<Skills />} />
+						<Route path="/skills" element={<Skills skills={props.skills} />} />
 						<Route path="/profile" element={<Profile />} />
 						<Route path="/contacts" element={<Contacts />} />
 					</Routes>

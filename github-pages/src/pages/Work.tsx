@@ -1,5 +1,6 @@
 //@ts-nocheck
 import { motion } from "framer-motion";
+import { blinkingOpacity, blinkingOpacityDuration } from "../helpers.ts";
 import "./Work.sass";
 
 function Work() {
@@ -9,12 +10,12 @@ function Work() {
 			className="work"
 			initial={{ opacity: 0 }}
 			animate={{
-				opacity: [1, Math.random(), Math.random(), Math.random(), 1],
+				opacity: blinkingOpacity,
 			}}
 			exit={{
 				opacity: 0,
 			}}
-			transition={{ duration: 0.5 }}
+			transition={{ duration: blinkingOpacityDuration }}
 		>
 			<div className="work__header">Works</div>
 			<div className="work__list list">

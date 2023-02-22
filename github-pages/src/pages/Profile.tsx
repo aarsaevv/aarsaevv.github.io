@@ -1,6 +1,7 @@
 //@ts-nocheck
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import { blinkingOpacity, blinkingOpacityDuration } from "../helpers.ts";
 import "./Profile.sass";
 import photo from "../assets/images/photo.png";
 import TypewriterAnimation from "../components/TypewriterAnimation";
@@ -12,12 +13,12 @@ function Profile() {
 			className="profile"
 			initial={{ opacity: 0 }}
 			animate={{
-				opacity: [1, Math.random(), Math.random(), Math.random(), 1],
+				opacity: blinkingOpacity,
 			}}
 			exit={{
 				opacity: 0,
 			}}
-			transition={{ duration: 0.5 }}
+			transition={{ duration: blinkingOpacityDuration }}
 		>
 			<div className="profile__header">
 				Prof<span>ile</span>

@@ -1,6 +1,7 @@
 //@ts-nocheck
 import { motion } from "framer-motion";
 import "./Contacts.sass";
+import { blinkingOpacity, blinkingOpacityDuration } from "../helpers.ts";
 import github from "../assets/images/github-big.svg";
 import google from "../assets/images/google-big.svg";
 import linkedin from "../assets/images/linkedin-big.svg";
@@ -13,12 +14,12 @@ function Contacts() {
 			className="contacts"
 			initial={{ opacity: 0 }}
 			animate={{
-				opacity: [1, Math.random(), Math.random(), Math.random(), 1],
+				opacity: blinkingOpacity,
 			}}
 			exit={{
 				opacity: 0,
 			}}
-			transition={{ duration: 0.5 }}
+			transition={{ duration: blinkingOpacityDuration }}
 		>
 			<div className="contacts__header">Contacts</div>
 			<div className="contacts__links contact-links">
