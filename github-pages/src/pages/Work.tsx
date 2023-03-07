@@ -130,6 +130,44 @@ function Work() {
 						</a>
 					</div>
 				</div>
+				<div className="list__element element">
+					<div className="element__title">Gearch. - Github repos search.</div>
+					<div className="element__description feature-list">
+						This github repos search is one of the Hotels.ru trainee tasks I received. <br />
+						Stack: HTML, CSS (SCSS), JavaScript (Vanilla), Github Pages, Webpack. <br />
+						Implemented functionality:
+						<ul>
+							<li className="feature-list__item">
+								searching in github repos
+							</li>
+							<li className="feature-list__item">form validation (symbols amount and empty form checking)</li>
+							<li className="feature-list__item">repos names is a link itself</li>
+							<li className="feature-list__item">
+								additional information about repo
+							</li>
+							<li className="feature-list__item">all of this designed on Vanilla JS ES6</li>
+						</ul>
+						All of this works with a Github API and hosted on Github Pages.
+					</div>
+					<div className="element__links">
+						<a
+							className="links__work"
+							href="https://aarsaevv.github.io/github-repos-search/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							https://aarsaevv.github.io/github-repos-search/
+						</a>
+						<a
+							className="links__work"
+							href="https://github.com/aarsaevv/react-todolist"
+							target="_blank"
+							rel="noreferrer"
+						>
+							https://github.io/aarsaevv/github-repos-search/
+						</a>
+					</div>
+				</div>
 			</div>
 		</motion.div>
 	);
