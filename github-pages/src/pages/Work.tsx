@@ -152,7 +152,7 @@ function Work() {
 					<div className="element__links">
 						<a
 							className="links__work"
-							href="https://aarsaevv.github.io/hotelsru-github-search/"
+							href="https://aarsaevv.github.io/github-repos-search/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -188,7 +188,7 @@ function Work() {
 					<div className="element__links">
 						<a
 							className="links__work"
-							href="https://aarsaevv.github.io/hotelsru-comments/"
+							href="https://aarsaevv.github.io/github-repos-search/"
 							target="_blank"
 							rel="noreferrer"
 						>
@@ -196,7 +196,7 @@ function Work() {
 						</a>
 						<a
 							className="links__work"
-							href="https://github.io/aarsaevv/hotelsru-comments/"
+							href="https://github.com/aarsaevv/react-todolist"
 							target="_blank"
 							rel="noreferrer"
 						>
