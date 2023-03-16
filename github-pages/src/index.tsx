@@ -9,6 +9,7 @@ import App from "./App";
 import javascript from "./assets/images/javascript.png";
 import react from "./assets/images/react.png";
 import vue from "./assets/images/vue.png";
+import sass from "./assets/images/sass.png"
 
 const skills = [
 	{
@@ -32,6 +33,12 @@ const skills = [
 		picture: vue,
 		alt: "Vue",
 	},
+	{
+		title: "Sass",
+		description: "In progress",
+		picture: sass,
+		alt: "Sass"
+	}
 ];
 
 const root = ReactDOM.createRoot(

@@ -156,7 +156,7 @@ function Work() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							https://aarsaevv.github.io/github-repos-search/
+							https://aarsaevv.github.io/hotelsru-github-search/
 						</a>
 						<a
 							className="links__work"
@@ -164,7 +164,43 @@ function Work() {
 							target="_blank"
 							rel="noreferrer"
 						>
-							https://github.io/aarsaevv/github-repos-search/
+							https://github.io/aarsaevv/hotelsru-github-search/
+						</a>
+					</div>
+				</div>
+				<div className="list__element element">
+					<div className="element__title">Just Comments</div>
+					<div className="element__description feature-list">
+						This github repos search is one of the Hotels.ru trainee tasks I received. <br />
+						Stack: HTML, CSS (SCSS), JavaScript (Vanilla), Github Pages, Webpack. <br />
+						Implemented functionality:
+						<ul>
+							<li className="feature-list__item">
+								actions with comments - submit, like, delete.
+							</li>
+							<li className="feature-list__item">form validation (symbols amount and empty form checking)</li>
+							<li className="feature-list__item">all data incomes from LocalStorage
+							</li>
+							<li className="feature-list__item">actions change the localStorage as well.</li>
+						</ul>
+						Hosted on Github Pages.
+					</div>
+					<div className="element__links">
+						<a
+							className="links__work"
+							href="https://aarsaevv.github.io/github-repos-search/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							https://aarsaevv.github.io/hotelsru-comments/
+						</a>
+						<a
+							className="links__work"
+							href="https://github.com/aarsaevv/react-todolist"
+							target="_blank"
+							rel="noreferrer"
+						>
+							https://github.io/aarsaevv/hotelsru-comments/
 						</a>
 					</div>
 				</div>
