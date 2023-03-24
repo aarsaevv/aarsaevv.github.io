@@ -130,6 +130,38 @@ function Work() {
           </div>
         </div>
         <div className="list__element element">
+          <div className="element__title">Sultan - cosmetics store.</div>
+          <div className="element__description feature-list">
+            This github repos search is one of the Hotels.ru trainee tasks I
+            received. <br />
+            Stack: HTML, CSS (SCSS), React - FC + hooks, TypeScript, Github
+            Pages. <br />
+            Implemented functionality: <br />
+            <ul>
+              <li>a lot of</li>
+            </ul>
+            Hosted on Github Pages.
+          </div>
+          <div className="element__links">
+            <a
+              className="links__work"
+              href="https://aarsaevv.github.io/hotelsru-sultan/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://aarsaevv.github.io/hotelsru-sultan/
+            </a>
+            <a
+              className="links__work"
+              href="https://github.com/aarsaevv/hotelsru-sultan/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              https://github.com/aarsaevv/hotelsru-sultan/
+            </a>
+          </div>
+        </div>
+        <div className="list__element element">
           <div className="element__title">Gearch. - Github repos search.</div>
           <div className="element__description feature-list">
             This github repos search is one of the Hotels.ru trainee tasks I
@@ -189,7 +221,7 @@ function Work() {
                 form validation (symbols amount and empty form checking)
               </li>
               <li className="feature-list__item">
-                all data incomes from LocalStorage
+                all data incomes from localStorage
               </li>
               <li className="feature-list__item">
                 actions change the localStorage as well.

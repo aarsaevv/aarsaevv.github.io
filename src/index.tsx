@@ -8,6 +8,7 @@ import javascript from "./assets/images/javascript.png";
 import react from "./assets/images/react.png";
 import vue from "./assets/images/vue.png";
 import sass from "./assets/images/sass.png";
+import typescript from "./assets/images/typescript.png";
 
 const skills: {
   title: string;
@@ -21,6 +22,12 @@ const skills: {
       "I learned about JavaScript quite a long time ago, but only last summer I decided to study it in full. I really liked the flexibility of the language and the development tools available. It can be said that during this time I managed not only to study the basic concepts and possibilities, but also extended constructions, subtleties and features of the language. With a little experience in C++ programming, it opened up to me after a few months of study. I would like to grow more towards an experienced developer who knows cool patterns, architecture and features of using one or another method to get what you want. Wish me luck.",
     picture: javascript,
     alt: "JavaScript",
+  },
+  {
+    title: "TypeScript",
+    description: "In progress",
+    picture: typescript,
+    alt: "TypeScript",
   },
   {
     title: "React",
