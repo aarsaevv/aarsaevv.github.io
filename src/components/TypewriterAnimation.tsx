@@ -1,4 +1,4 @@
-import "./TypewriterAnimation.sass";
+import "../styles/components/TypewriterAnimation.sass"
 
 function TypewriterAnimation() {
 	return (
@@ -7,7 +7,7 @@ function TypewriterAnimation() {
 			<div className="typewriter__line--1">Hello, my name is</div>
 			<div className="typewriter__line--2">Evgeny Arsaev</div>
 		</div>
-	);
+	)
 }
 
-export default TypewriterAnimation;
+export default TypewriterAnimation
