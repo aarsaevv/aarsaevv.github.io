@@ -70,7 +70,7 @@ function Skills() {
 						/>
 						<div className="item__text text">
 							<div className="text__header">{skill.title}</div>
-							<div className="text__description">{skill.description}</div>
+							{/* <div className="text__description">{skill.description}</div> */}
 						</div>
 					</div>
 				))}

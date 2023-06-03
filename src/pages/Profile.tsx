@@ -42,7 +42,7 @@ function Profile() {
 							<li>Country: Republic of Kazakhstan</li>
 							<li>City: Karaganda</li>
 							<li>Age: 26</li>
-							<li>Job: Open to work!</li>
+							<li>Job: <a className="description__link" href="https://puzzlepro.ru/" target="_blank" rel="noreferrer">Puzzle.kz</a></li>
 							<li>Russian: native</li>
 							<li>English: advanced</li>
 						</ul>
