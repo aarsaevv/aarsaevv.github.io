@@ -25,7 +25,14 @@
 
     &__links > *
         margin: 5px 0 0 0
-        color: #f2f2f2
+        color: $light
+
+.description
+    &__stack
+        font-size: $mobile-font-md
+        margin: 0
+        margin-bottom: 20px
+
 
 .feature-list
 
@@ -48,8 +55,7 @@
     .element
         display: flex
         flex-direction: column
-        width: 560px
-        gap: 0
+        width: 50%
 
         &__title
             font-size: $desktop-font-md
@@ -68,8 +74,8 @@
     .links
 
         &__work:hover
-            color: #0d0d0d
+            color: $dark
             width: fit-content
-            background-color: #f2f2f2
-            text-decoration-color: #f2f2f2
+            background-color: $light
+            text-decoration-color: $light
             transition: 0.3s

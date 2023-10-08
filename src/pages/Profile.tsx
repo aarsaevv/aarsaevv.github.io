@@ -41,8 +41,8 @@ function Profile() {
 						<ul className="description__list">
 							<li>Country: Republic of Kazakhstan</li>
 							<li>City: Karaganda</li>
-							<li>Age: 26</li>
-							<li>Job: <a className="description__link" href="https://puzzlepro.ru/" target="_blank" rel="noreferrer">Puzzle.kz</a></li>
+							<li>Age: 27</li>
+							<li>Job: <a className="description__link" href="https://via-tech.ru/" target="_blank" rel="noreferrer">Viasat Tech</a></li>
 							<li>Russian: native</li>
 							<li>English: advanced</li>
 						</ul>

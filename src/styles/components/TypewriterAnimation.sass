@@ -27,7 +27,7 @@
 
         &__line--1::before
             content: ""
-            background: #0d0d0d
+            background: $dark
             height: 53px
             animation: typewriter $tw-line--1-duration steps($tw-line--1-words) 500ms forwards
 
@@ -36,11 +36,11 @@
             top: 42px
             width: 0.44em
             height: 0.125em
-            background: #f2f2f2
+            background: $light
             animation: typewriter $tw-line--1-duration steps($tw-line--1-words) 500ms forwards, hide-caret 0s ease-in 5s forwards
 
         &__line--2::before
-            background: #0d0d0d
+            background: $dark
             height: 53px
             animation: typewriter $tw-line--2-duration steps($tw-line--2-words) 500ms forwards
             animation-delay: 5s
@@ -50,7 +50,7 @@
             top: 42px
             width: 0.44em
             height: 0.125em
-            background: #0d0d0d
+            background: $dark
             animation: typewriter $tw-line--2-duration steps($tw-line--2-words) 500ms forwards, show-caret 0s ease-in 5s forwards
             animation-delay: 5s
 
@@ -66,4 +66,4 @@
 
     @keyframes show-caret
         to
-            background: #f2f2f2
+            background: $light

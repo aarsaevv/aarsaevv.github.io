@@ -9,8 +9,9 @@ export type LinksProps = {
 export type WorksProps = {
 	title: string
 	description: string
+	stack?: string
 	hostingLink: string
-	repoLink: string
+	repoLink?: string
 }
 
 export type SkillsProps = {
