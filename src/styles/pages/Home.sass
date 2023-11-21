@@ -1,150 +1,156 @@
 @import '../global/variables.sass'
 
 .image
-    margin: 0 0 33px
+  margin: 0 0 33px
 
-    &__main
-        width: 330px
+  &__main
+    width: 330px
 
 .home
-    &__wrapper
-        display: flex
-        flex-wrap: wrap
-        justify-content: space-between
+  &__wrapper
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
 
 .wrapper
 
-    &__blog-item
-        width: 327px
-        height: 200px
+  &__blog-item
+    width: 327px
+    height: 200px
 
 .header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  height: 25px
+  background-color: $light
+  border: 2px solid $light
+
+  &__heading
     display: flex
-    justify-content: space-between
-    align-items: center
-    height: 25px
-    background-color: $light
-    border: 2px solid $light
+    padding: 3px 0 5px 10px
+    color: $dark
+    font-size: 25px
 
-    &__heading
-        display: flex
-        padding: 3px 0 5px 10px
-        color: $dark
-        font-size: 25px
-
-    &__button
-        display: flex
-        gap: 5px
+  &__button
+    display: flex
+    gap: 5px
 
 .button
 
-    &__collapse, &__expand, &__cross
-        width: 21px
-        height: 21px
-        background-size: 21px 21px
-        border: none
+  &__collapse, &__expand, &__cross
+    width: 21px
+    height: 21px
+    background-size: 21px 21px
+    border: none
 
-        &--big
-            width: 27px
-            height: 27px
-            background-size: 27px 27px
-            border: none
-            display: none
+    &--big
+      width: 27px
+      height: 27px
+      background-size: 27px 27px
+      border: none
+      display: none
 
-    &__collapse
-        background: url(../../assets/images/button-collapse.svg)
-        &--
-            background: url(../../assets/images/button-collapse-big.svg)
+  &__collapse
+    background: url(../../assets/images/button-collapse.svg)
 
-    &__cross
-        background: url(../../assets/images/button-cross.svg)
-        &--big
-            background: url(../../assets/images/button-cross-big.svg)
+    &--
+      background: url(../../assets/images/button-collapse-big.svg)
 
-    &__expand
-        background: url(../../assets/images/button-expand.svg)
-        &--big
-            background: url(../../assets/images/button-expand-big.svg)
+  &__cross
+    background: url(../../assets/images/button-cross.svg)
+
+    &--big
+      background: url(../../assets/images/button-cross-big.svg)
+
+  &__expand
+    background: url(../../assets/images/button-expand.svg)
+
+    &--big
+      background: url(../../assets/images/button-expand-big.svg)
 
 .body
-    display: flex
-    flex-direction: column
-    gap: 10px
-    margin: 10px 8px
+  display: flex
+  flex-direction: column
+  gap: 10px
+  margin: 10px 8px
 
-    &__heading
-        font-size: $mobile-font-md
+  &__heading
+    font-size: $mobile-font-md
 
-    &__text
-        font-size: 25px
-        text-align: justify
+  &__text
+    font-size: 25px
+    text-align: justify
 
-    &__button
-        max-width: 82px
-        min-height: 22px
-        background: url(../../assets/images/button-small.svg)
-        background-size: 82px 22px
-        border: none
+  &__button
+    max-width: 82px
+    min-height: 22px
+    background: url(../../assets/images/button-small.svg)
+    background-size: 82px 22px
+    border: none
 
-        &--big
-            max-width: 112px
-            min-height: 36px
-            background: url(../../assets/images/button-big.svg)
-            background-size: 112px 36px
-            border: none
-            display: none
+    &--big
+      max-width: 112px
+      min-height: 36px
+      background: url(../../assets/images/button-big.svg)
+      background-size: 112px 36px
+      border: none
+      display: none
 
 @media screen and (min-width: 500px)
 
-    .image
+  .image
 
-        &__main
-            width: 1140px
+    &__main
+      width: 1140px
 
-    .wrapper
+  .wrapper
 
-        &__blog-item
-            width: 552px
-            height: 340px
+    &__blog-item
+      width: 552px
+      height: 340px
 
-    .header
-        height: 35px
-        border: 4px solid $light
+  .header
+    height: 35px
+    border: 4px solid $light
 
-        &__heading
-            padding: 7px 0 7px 10px
-            font-size: 35px
+    &__heading
+      padding: 7px 0 7px 10px
+      font-size: 35px
 
-    .button
+  .button
 
-        &__collapse
-            display: none
-            &--big
-                display: block
+    &__collapse
+      display: none
 
-        &__cross
-            display: none
-            &--big
-                display: block
+      &--big
+        display: block
 
-        &__expand
-            display: none
-            &--big
-                display: block
+    &__cross
+      display: none
 
-    .body
-        gap: 20px
-        height: 0px
-        margin: 8px 6px
+      &--big
+        display: block
 
-        &__heading
-            font-size: $desktop-font-md
+    &__expand
+      display: none
 
-        &__text
-            font-size: 40px
+      &--big
+        display: block
 
-        &__button
-            display: none
+  .body
+    gap: 20px
+    height: 0px
+    margin: 8px 6px
 
-            &--big
-                display: block
+    &__heading
+      font-size: $desktop-font-md
+
+    &__text
+      font-size: 40px
+
+    &__button
+      display: none
+
+      &--big
+        display: block

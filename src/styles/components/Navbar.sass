@@ -1,80 +1,155 @@
 @import '../global/variables.sass'
 
 .hidden
-    display: none
+  display: none
 
 .navigation
+  display: flex
+  justify-content: space-between
+  margin: 0 0 20px
+  height: 50px
+
+  &__links
+    display: none
+
+  &__button
     display: flex
-    justify-content: space-between
-    margin: 0 0 20px
-    height: 50px
-
-    &__links
-        display: none
-
-    &__button
-        display: flex
-        flex-direction: column
-        justify-content: center
+    flex-direction: column
+    justify-content: center
 
 .logo
 
-    &__image
-        width: 50px
-        height: 50px
+  &__image
+    width: 50px
+    height: 50px
 
 .sidebar
-    padding: 10px 0
+  padding: 10px 0
 
-    &__anchor
-        display: flex
-        gap: 5px
+  &__anchor
+    display: flex
+    gap: 5px
 
 .anchor
+  display: flex
+  justify-content: flex-end
+  margin: $mobile-indent-bottom
+
+  &:nth-child(1) a
+    color: #ff7eb6
+    text-shadow: 0 0 35px #ff7eb6
+
+  &:nth-child(2) a
+    color: #be95ff
+    text-shadow: 0 0 35px #be95ff
+
+  &:nth-child(3) a
+    color: #78a9ff
+    text-shadow: 0 0 35px #78a9ff
+
+  &:nth-child(4) a
+    color: #33b1ff
+    text-shadow: 0 0 35px #33b1ff
+
+  &:nth-child(5) a
+    color: #08bdba
+    text-shadow: 0 0 35px #08bdba
+
+  &__link
     display: flex
-    justify-content: flex-end
-    margin: $mobile-indent-bottom
+    gap: 5px
+    font-size: $mobile-font-md
+    text-decoration: none
+    text-transform: uppercase
 
-    &__link
-        display: flex
-        gap: 5px
-        font-size: $mobile-font-md
-        text-decoration: none
-        text-transform: uppercase
-        color: $light
-
-    &__image
-        height: 24px
-        width: 24px
+  &__image
+    height: 24px
+    width: 24px
 
 .link
-    &__image
-        height: 24px
-        width: 24px
+  &__image
+    height: 24px
+    width: 24px
 
 @media screen and (min-width: 500px)
 
-    .navigation
-        height: 77px
-        margin: 0 0 40px
+  .navigation
+    height: 77px
+    margin: 0 0 40px
 
-        &__links
-            display: flex
-            align-items: center
-            gap: 20px
+    &__links
+      display: flex
+      align-items: center
+      gap: 20px
 
-        &__button
-            display: none
+    &__button
+      display: none
 
-    .anchor
-        margin: 0
+  .anchor
+    margin: 0
 
-        &__link:hover
-            color: $dark
-            background-color: $light
-            transition: 0.3s
+    &:nth-child(1) a:hover
+      background-color: #ff7eb6
+      color: $dark
+      transition: 0.3s
 
-    .logo
-        &__image
-            width: 77px
-            height: 77px
+    &:nth-child(2) a:hover
+      background-color: #be95ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(3) a:hover
+      background-color: #78a9ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(4) a:hover
+      background-color: #33b1ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(5) a:hover
+      background-color: #08bdba
+      color: $dark
+      transition: 0.3s
+
+  .logo
+    &__image
+      width: 77px
+      height: 77px
+
+@media screen and (max-width: 499px)
+
+  .anchor
+
+    &:nth-child(2) a
+      background-color: #ff7eb6
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(2) img,
+    &:nth-child(3) img,
+    &:nth-child(4) img,
+    &:nth-child(5) img,
+    &:nth-child(6) img
+      opacity: 0
+
+    &:nth-child(3) a
+      background-color: #be95ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(4) a
+      background-color: #78a9ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(5) a
+      background-color: #33b1ff
+      color: $dark
+      transition: 0.3s
+
+    &:nth-child(6) a
+      background-color: #08bdba
+      color: $dark
+      transition: 0.3s

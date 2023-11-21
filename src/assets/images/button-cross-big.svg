@@ -1,43 +1,43 @@
 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_218_433)">
-<line x1="1" y1="26.5" x2="26" y2="26.5" stroke="#0D0D0D"/>
-<line x1="26.5" y1="1" x2="26.5" y2="26" stroke="#0D0D0D"/>
-<line x1="0.5" y1="1" x2="0.5" y2="26" stroke="#0D0D0D"/>
-<line x1="1" y1="0.5" x2="26" y2="0.5" stroke="#0D0D0D"/>
-<rect x="3" y="3" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="4.40002" y="4.40002" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="5.80005" y="5.80005" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="7.19995" y="7.19995" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="8.59998" y="8.59998" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="10" y="10" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="11.4" y="11.4" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="12.7999" y="12.7999" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="14.2001" y="14.2001" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="15.6" y="15.6" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="17" y="17" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="18.4" y="18.4" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="19.8" y="19.8" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="21.2" y="21.2" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="22.6" y="22.6" width="1.4" height="1.4" fill="#0D0D0D"/>
-<rect x="24" y="3" width="1.4" height="1.4" transform="rotate(90 24 3)" fill="#0D0D0D"/>
-<rect x="22.6" y="4.40002" width="1.4" height="1.4" transform="rotate(90 22.6 4.40002)" fill="#0D0D0D"/>
-<rect x="21.2" y="5.80005" width="1.4" height="1.4" transform="rotate(90 21.2 5.80005)" fill="#0D0D0D"/>
-<rect x="19.8" y="7.19995" width="1.4" height="1.4" transform="rotate(90 19.8 7.19995)" fill="#0D0D0D"/>
-<rect x="18.4" y="8.59998" width="1.4" height="1.4" transform="rotate(90 18.4 8.59998)" fill="#0D0D0D"/>
-<rect x="17" y="10" width="1.4" height="1.4" transform="rotate(90 17 10)" fill="#0D0D0D"/>
-<rect x="15.6" y="11.4" width="1.4" height="1.4" transform="rotate(90 15.6 11.4)" fill="#0D0D0D"/>
-<rect x="14.2001" y="12.7999" width="1.4" height="1.4" transform="rotate(90 14.2001 12.7999)" fill="#0D0D0D"/>
-<rect x="12.7999" y="14.2001" width="1.4" height="1.4" transform="rotate(90 12.7999 14.2001)" fill="#0D0D0D"/>
-<rect x="11.4" y="15.6" width="1.4" height="1.4" transform="rotate(90 11.4 15.6)" fill="#0D0D0D"/>
-<rect x="10" y="17" width="1.4" height="1.4" transform="rotate(90 10 17)" fill="#0D0D0D"/>
-<rect x="8.59998" y="18.4" width="1.4" height="1.4" transform="rotate(90 8.59998 18.4)" fill="#0D0D0D"/>
-<rect x="7.19995" y="19.8" width="1.4" height="1.4" transform="rotate(90 7.19995 19.8)" fill="#0D0D0D"/>
-<rect x="5.80005" y="21.2" width="1.4" height="1.4" transform="rotate(90 5.80005 21.2)" fill="#0D0D0D"/>
-<rect x="4.40002" y="22.6" width="1.4" height="1.4" transform="rotate(90 4.40002 22.6)" fill="#0D0D0D"/>
-</g>
-<defs>
-<clipPath id="clip0_218_433">
-<rect width="27" height="27" fill="white"/>
-</clipPath>
-</defs>
+    <g clip-path="url(#clip0_218_433)">
+        <line x1="1" y1="26.5" x2="26" y2="26.5" stroke="#0D0D0D"/>
+        <line x1="26.5" y1="1" x2="26.5" y2="26" stroke="#0D0D0D"/>
+        <line x1="0.5" y1="1" x2="0.5" y2="26" stroke="#0D0D0D"/>
+        <line x1="1" y1="0.5" x2="26" y2="0.5" stroke="#0D0D0D"/>
+        <rect x="3" y="3" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="4.40002" y="4.40002" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="5.80005" y="5.80005" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="7.19995" y="7.19995" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="8.59998" y="8.59998" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="10" y="10" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="11.4" y="11.4" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="12.7999" y="12.7999" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="14.2001" y="14.2001" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="15.6" y="15.6" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="17" y="17" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="18.4" y="18.4" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="19.8" y="19.8" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="21.2" y="21.2" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="22.6" y="22.6" width="1.4" height="1.4" fill="#0D0D0D"/>
+        <rect x="24" y="3" width="1.4" height="1.4" transform="rotate(90 24 3)" fill="#0D0D0D"/>
+        <rect x="22.6" y="4.40002" width="1.4" height="1.4" transform="rotate(90 22.6 4.40002)" fill="#0D0D0D"/>
+        <rect x="21.2" y="5.80005" width="1.4" height="1.4" transform="rotate(90 21.2 5.80005)" fill="#0D0D0D"/>
+        <rect x="19.8" y="7.19995" width="1.4" height="1.4" transform="rotate(90 19.8 7.19995)" fill="#0D0D0D"/>
+        <rect x="18.4" y="8.59998" width="1.4" height="1.4" transform="rotate(90 18.4 8.59998)" fill="#0D0D0D"/>
+        <rect x="17" y="10" width="1.4" height="1.4" transform="rotate(90 17 10)" fill="#0D0D0D"/>
+        <rect x="15.6" y="11.4" width="1.4" height="1.4" transform="rotate(90 15.6 11.4)" fill="#0D0D0D"/>
+        <rect x="14.2001" y="12.7999" width="1.4" height="1.4" transform="rotate(90 14.2001 12.7999)" fill="#0D0D0D"/>
+        <rect x="12.7999" y="14.2001" width="1.4" height="1.4" transform="rotate(90 12.7999 14.2001)" fill="#0D0D0D"/>
+        <rect x="11.4" y="15.6" width="1.4" height="1.4" transform="rotate(90 11.4 15.6)" fill="#0D0D0D"/>
+        <rect x="10" y="17" width="1.4" height="1.4" transform="rotate(90 10 17)" fill="#0D0D0D"/>
+        <rect x="8.59998" y="18.4" width="1.4" height="1.4" transform="rotate(90 8.59998 18.4)" fill="#0D0D0D"/>
+        <rect x="7.19995" y="19.8" width="1.4" height="1.4" transform="rotate(90 7.19995 19.8)" fill="#0D0D0D"/>
+        <rect x="5.80005" y="21.2" width="1.4" height="1.4" transform="rotate(90 5.80005 21.2)" fill="#0D0D0D"/>
+        <rect x="4.40002" y="22.6" width="1.4" height="1.4" transform="rotate(90 4.40002 22.6)" fill="#0D0D0D"/>
+    </g>
+    <defs>
+        <clipPath id="clip0_218_433">
+            <rect width="27" height="27" fill="white"/>
+        </clipPath>
+    </defs>
 </svg>

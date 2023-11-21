@@ -1,35 +1,44 @@
 @import '../global/variables.sass'
 
+@keyframes bloom
+  from
+    text-shadow: 0 0 20px #009d9a
+  to
+    text-shadow: 0 0 35px #009d9a
+
 .contacts
 
-    &__header
-        font-size: $mobile-font-lg
-        margin: $mobile-indent-bottom
+  &__header
+    color: #009d9a
+    text-transform: uppercase
+    font-size: $mobile-font-lg
+    margin: $mobile-indent-bottom
+    animation: bloom 1s linear infinite alternate
 
-    &__links
-        display: grid
-        justify-content: center
-        grid-template-columns: repeat(2, 60px)
-        grid-gap: 20px
+  &__links
+    display: grid
+    justify-content: center
+    grid-template-columns: repeat(2, 60px)
+    grid-gap: 20px
 
 .contact-link
 
-    &__image
-        width: 60px
+  &__image
+    width: 60px
 
 @media screen and (min-width: 500px)
 
-    .contacts
+  .contacts
 
-        &__header
-            font-size: $desktop-font-lg
-            margin: $desktop-indent-bottom
+    &__header
+      font-size: $desktop-font-lg
+      margin: $desktop-indent-bottom
 
-        &__links
-            grid-template-columns: repeat(4, 110px)
-            grid-gap: 30px
+    &__links
+      grid-template-columns: repeat(4, 110px)
+      grid-gap: 30px
 
-    .contact-link
+  .contact-link
 
-        &__image
-            width: 110px
+    &__image
+      width: 110px

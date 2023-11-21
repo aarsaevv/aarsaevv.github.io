@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="48" width="48"><title>business-products-magic-rabbit</title><g><path d="M30.475,12.19h-1.52v3.05h-1.53V13.72h-1.52V12.19h3.05V10.67h-3.05V9.14h-1.52v6.1h-1.53v1.52H9.145V15.24H7.615V9.14H6.1v1.53H3.045v1.52H6.1v1.53H4.575v1.52H3.045V12.19H1.525v4.57h1.52v1.53H6.1V28.95h1.52v1.53h1.53V32h13.71V30.48h1.53V28.95h1.52V18.29h3.05V16.76h1.52Zm-6.09,9.15H7.615V19.81h16.77Z" fill="#f2f2f2"></path><rect x="22.855" y="7.62" width="1.53" height="1.52" fill="#f2f2f2"></rect><rect x="22.855" y="1.53" width="1.53" height="3.04" fill="#f2f2f2"></rect><rect x="21.335" y="4.57" width="1.52" height="3.05" fill="#f2f2f2"></rect><rect x="19.805" width="3.05" height="1.53" fill="#f2f2f2"></rect><rect x="19.805" y="10.67" width="1.53" height="1.52" fill="#f2f2f2"></rect><rect x="18.285" y="1.53" width="1.52" height="3.04" fill="#f2f2f2"></rect><rect x="16.765" y="4.57" width="1.52" height="1.53" fill="#f2f2f2"></rect><polygon points="15.235 15.24 16.765 15.24 16.765 13.72 18.285 13.72 18.285 12.19 13.715 12.19 13.715 13.72 15.235 13.72 15.235 15.24" fill="#f2f2f2"></polygon><rect x="15.235" y="6.1" width="1.53" height="1.52" fill="#f2f2f2"></rect><rect x="13.715" y="4.57" width="1.52" height="1.53" fill="#f2f2f2"></rect><rect x="12.185" y="1.53" width="1.53" height="3.04" fill="#f2f2f2"></rect><rect x="10.665" y="10.67" width="1.52" height="1.52" fill="#f2f2f2"></rect><rect x="9.145" width="3.04" height="1.53" fill="#f2f2f2"></rect><rect x="9.145" y="4.57" width="1.52" height="3.05" fill="#f2f2f2"></rect><rect x="7.615" y="7.62" width="1.53" height="1.52" fill="#f2f2f2"></rect><rect x="7.615" y="1.53" width="1.53" height="3.04" fill="#f2f2f2"></rect></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" height="48" width="48">
+    <title>business-products-magic-rabbit</title>
+    <g>
+        <path d="M30.475,12.19h-1.52v3.05h-1.53V13.72h-1.52V12.19h3.05V10.67h-3.05V9.14h-1.52v6.1h-1.53v1.52H9.145V15.24H7.615V9.14H6.1v1.53H3.045v1.52H6.1v1.53H4.575v1.52H3.045V12.19H1.525v4.57h1.52v1.53H6.1V28.95h1.52v1.53h1.53V32h13.71V30.48h1.53V28.95h1.52V18.29h3.05V16.76h1.52Zm-6.09,9.15H7.615V19.81h16.77Z"
+              fill="#33b1ff"></path>
+        <rect x="22.855" y="7.62" width="1.53" height="1.52" fill="#33b1ff"></rect>
+        <rect x="22.855" y="1.53" width="1.53" height="3.04" fill="#33b1ff"></rect>
+        <rect x="21.335" y="4.57" width="1.52" height="3.05" fill="#33b1ff"></rect>
+        <rect x="19.805" width="3.05" height="1.53" fill="#33b1ff"></rect>
+        <rect x="19.805" y="10.67" width="1.53" height="1.52" fill="#33b1ff"></rect>
+        <rect x="18.285" y="1.53" width="1.52" height="3.04" fill="#33b1ff"></rect>
+        <rect x="16.765" y="4.57" width="1.52" height="1.53" fill="#33b1ff"></rect>
+        <polygon
+                points="15.235 15.24 16.765 15.24 16.765 13.72 18.285 13.72 18.285 12.19 13.715 12.19 13.715 13.72 15.235 13.72 15.235 15.24"
+                fill="#33b1ff"></polygon>
+        <rect x="15.235" y="6.1" width="1.53" height="1.52" fill="#33b1ff"></rect>
+        <rect x="13.715" y="4.57" width="1.52" height="1.53" fill="#33b1ff"></rect>
+        <rect x="12.185" y="1.53" width="1.53" height="3.04" fill="#33b1ff"></rect>
+        <rect x="10.665" y="10.67" width="1.52" height="1.52" fill="#33b1ff"></rect>
+        <rect x="9.145" width="3.04" height="1.53" fill="#33b1ff"></rect>
+        <rect x="9.145" y="4.57" width="1.52" height="3.05" fill="#33b1ff"></rect>
+        <rect x="7.615" y="7.62" width="1.53" height="1.52" fill="#33b1ff"></rect>
+        <rect x="7.615" y="1.53" width="1.53" height="3.04" fill="#33b1ff"></rect>
+    </g>
+</svg>

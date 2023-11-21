@@ -1,158 +1,168 @@
 @import '../global/variables.sass'
 
+@keyframes bloom
+  from
+    text-shadow: 0 0 20px #1192e8
+  to
+    text-shadow: 0 0 35px #1192e8
+
 .profile
 
-    &__header
-        font-size: $mobile-font-lg
-        margin: $mobile-indent-bottom
+  &__header
+    color: #1192e8
+    text-transform: uppercase
+    font-size: $mobile-font-lg
+    margin: $mobile-indent-bottom
+    animation: bloom 1s linear infinite alternate
 
 .wrap
+  display: flex
+  margin: $mobile-indent-bottom
+  align-items: center
+
+  &__photo
+    width: 160px
+    margin: 0 5px 0 0
+    border: 2px solid $light
+
+  &__credentials
     display: flex
-    margin: $mobile-indent-bottom
-    align-items: center
-
-    &__photo
-        width: 160px
-        margin: 0 5px 0 0
-        border: 2px solid $light
-
-    &__credentials
-        display: flex
-        flex-direction: column
+    flex-direction: column
 
 .credentials
 
-    &__name
-        font-size: $mobile-font-md
-        line-height: 0.85
+  &__name
+    font-size: $mobile-font-md
+    line-height: 0.85
 
-    &__sphere
-        font-size: 25px
-        line-height: 0.85
+  &__sphere
+    font-size: 25px
+    line-height: 0.85
 
 .information
 
-    &__block
-        margin: $mobile-indent-bottom
+  &__block
+    margin: $mobile-indent-bottom
 
 .description
 
-    &__list
-        list-style: square
+  &__list
+    list-style: square
 
-        li
-            line-height: 90%
+    li
+      line-height: 90%
 
-    &__link
-        color: $light
-        margin: 0 0 0 6px
-        text-transform: uppercase
-        text-decoration: none
+  &__link
+    color: $light
+    margin: 0 0 0 6px
+    text-transform: uppercase
+    text-decoration: none
 
-        &:hover
-            color: $dark
-            background-color: $light
-            transition: 0.3s
+    &:hover
+      color: $dark
+      background-color: $light
+      transition: 0.3s
 
 .block
 
-    &__header
-        font-size: $mobile-font-md
-        margin: 0 0 5px 0
-    &__description
-        text-align: justify
-        line-height: 80%
+  &__header
+    font-size: $mobile-font-md
+    margin: 0 0 5px 0
+
+  &__description
+    text-align: justify
+    line-height: 80%
 
 .interests
-    display: flex
-    flex-wrap: wrap
-    width: fit-content
-    margin: 2px 0 56px 0
+  display: flex
+  flex-wrap: wrap
+  width: fit-content
+  margin: 2px 0 56px 0
 
-    &__tag
-        font-size: 24px
-        border: 2px solid $light
-        padding: 3px
-        margin: 0 5px 5px 0
-        clip-path: polygon(0 2.00px,2px 2px,2.00px 0,calc(100% - 2.00px) 0,calc(100% - 2px) 2px,100% 2.00px,100% calc(100% - 2.00px),calc(100% - 2px) calc(100% - 2px),calc(100% - 2.00px) 100%,2.00px 100%,2px calc(100% - 2px),0 calc(100% - 2.00px))
+  &__tag
+    font-size: 24px
+    border: 2px solid $light
+    padding: 3px
+    margin: 0 5px 5px 0
+    clip-path: polygon(0 2.00px, 2px 2px, 2.00px 0, calc(100% - 2.00px) 0, calc(100% - 2px) 2px, 100% 2.00px, 100% calc(100% - 2.00px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2.00px) 100%, 2.00px 100%, 2px calc(100% - 2px), 0 calc(100% - 2.00px))
 
-        &:hover
-            background-color: $light
-            transition: 0.3s
+    &:hover
+      background-color: $light
+      transition: 0.3s
 
 .tag
 
-    &__link
-        text-decoration: none
-        color: $light
+  &__link
+    text-decoration: none
+    color: $light
 
-    &__link:hover
-        color: $dark
-        transition: 0.3s
+  &__link:hover
+    color: $dark
+    transition: 0.3s
 
 @media screen and (min-width: 500px)
 
-    .profile
+  .profile
 
-        &__header
-            font-size: $desktop-font-lg
-            margin: $desktop-indent-bottom
+    &__header
+      font-size: $desktop-font-lg
+      margin: $desktop-indent-bottom
 
-    .wrap
-        display: flex
+  .wrap
+    display: flex
 
-        &__photo
-            width: 270px
-            border: 4px solid $light
-            margin: 0 20px 10px 0
+    &__photo
+      width: 270px
+      border: 4px solid $light
+      margin: 0 20px 10px 0
 
-    .credentials
-        display: flex
-        justify-content: center
-        width: 483px
+  .credentials
+    display: flex
+    justify-content: center
+    width: 483px
 
-        &__name
-            font-size: $desktop-font-md
+    &__name
+      font-size: $desktop-font-md
 
-        &__sphere
-            font-size: 40px
-            margin: 25px 0 0 0
+    &__sphere
+      font-size: 40px
+      margin: 25px 0 0 0
 
-    .information
-        display: flex
-        flex-wrap: wrap
-        gap: 30px 20px
+  .information
+    display: flex
+    flex-wrap: wrap
+    gap: 30px 20px
 
-        &__block
-            display: flex
-            flex-direction: column
-            width: 560px
+    &__block
+      display: flex
+      flex-direction: column
+      width: 560px
 
-    .description
+  .description
 
-        &__link
-            margin: 0 0 0 10px
+    &__link
+      margin: 0 0 0 10px
 
-    .block
+  .block
 
-        &__header
-            font-size: $desktop-font-md
-            padding: 0
-            margin: 0 0 20px 0
+    &__header
+      font-size: $desktop-font-md
+      padding: 0
+      margin: 0 0 20px 0
 
-        &__description
-            font-size: $desktop-font-sm
-            text-align: justify
+    &__description
+      font-size: $desktop-font-sm
+      text-align: justify
 
-    .interests
-        display: flex
-        flex-wrap: wrap
-        width: fit-content
-        margin: 2px 0 0
+  .interests
+    display: flex
+    flex-wrap: wrap
+    width: fit-content
+    margin: 2px 0 0
 
-        &__tag
-            font-size: 40px
-            border: 3px solid $light
-            padding: 5px
-            margin: 0 10px 10px 0
-            clip-path: polygon(0 2.00px,2px 2px,2.00px 0,calc(100% - 2.00px) 0,calc(100% - 2px) 2px,100% 2.00px,100% calc(100% - 2.00px),calc(100% - 2px) calc(100% - 2px),calc(100% - 2.00px) 100%,2.00px 100%,2px calc(100% - 2px),0 calc(100% - 2.00px))
+    &__tag
+      font-size: 40px
+      border: 3px solid $light
+      padding: 5px
+      margin: 0 10px 10px 0
+      clip-path: polygon(0 2.00px, 2px 2px, 2.00px 0, calc(100% - 2.00px) 0, calc(100% - 2px) 2px, 100% 2.00px, 100% calc(100% - 2.00px), calc(100% - 2px) calc(100% - 2px), calc(100% - 2.00px) 100%, 2.00px 100%, 2px calc(100% - 2px), 0 calc(100% - 2.00px))

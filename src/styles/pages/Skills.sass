@@ -1,59 +1,68 @@
 @import '../global/variables.sass'
 
+@keyframes bloom
+  from
+    text-shadow: 0 0 20px #4589ff
+  to
+    text-shadow: 0 0 35px #4589ff
+
 .skills
 
-    &__header
-        font-size: $mobile-font-lg
-        margin: $mobile-indent-bottom
+  &__header
+    color: #4589ff
+    text-transform: uppercase
+    font-size: $mobile-font-lg
+    margin: $mobile-indent-bottom
+    animation: bloom 1s linear infinite alternate
 
 .item
 
-    &__image
-        width: 80px
-        height: 80px
-        margin: 0 5px 0 0
-        float: left
+  &__image
+    width: 80px
+    height: 80px
+    margin: 0 5px 0 0
+    float: left
 
 .text
-    margin: $mobile-indent-bottom
+  margin: $mobile-indent-bottom
 
-    &__header
-        font-size: $mobile-font-md
-        margin: 0 0 5px 0
+  &__header
+    font-size: $mobile-font-md
+    margin: 0 0 5px 0
 
-    &__description
-        font-size: $mobile-font-sm
-        text-align: justify
-        line-height: 80%
+  &__description
+    font-size: $mobile-font-md!important
+    text-align: justify
+    line-height: 80%
 
 @media screen and (min-width: 500px)
 
-    .skills
+  .skills
 
-        &__header
-            font-size: $desktop-font-lg
-            margin: $desktop-indent-bottom
+    &__header
+      font-size: $desktop-font-lg
+      margin: $desktop-indent-bottom
 
-    .block
-        display: flex
-        flex-direction: row
-        flex-wrap: wrap
-        gap: 30px 20px
+  .block
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    gap: 30px 20px
 
-    .item
-        width: 560px
+  .item
+    width: 560px
 
-        &__image
-            width: 130px
-            height: 130px
-            margin: 0 10px 0 0
+    &__image
+      width: 130px
+      height: 130px
+      margin: 0 10px 0 0
 
-    .text
+  .text
 
-        &__header
-            font-size: $desktop-font-md
-            margin: 0 0 20px
+    &__header
+      font-size: $desktop-font-md
+      margin: 0 0 20px
 
-        &__description
-            font-size: $desktop-font-sm
-            text-align: justify
+    &__description
+      font-size: $desktop-font-sm
+      text-align: justify

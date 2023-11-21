@@ -1,81 +1,93 @@
 @import '../global/variables.sass'
 
+@keyframes bloom
+  from
+    text-shadow: 0 0 20px #a56eff
+  to
+    text-shadow: 0 0 35px #a56eff
+
 .work
 
-    &__header
-        font-size: $mobile-font-lg
-        margin: $mobile-indent-bottom
+  &__header
+    color: #a56eff
+    text-transform: uppercase
+    font-size: $mobile-font-lg
+    margin: $mobile-indent-bottom
+    animation: bloom 1s linear infinite alternate
 
 .element
 
-    &__title
-        font-size: $mobile-font-md
-        margin: 0 0 5px
+  &__title
+    font-size: $mobile-font-md
+    margin: 0 0 5px
 
-    &__description
-        margin: 0 0 5px
-        font-size: $mobile-font-sm
-        line-height: 80%
-        text-align: justify
+  &__description
+    margin: 0 0 5px
+    font-size: $mobile-font-sm
+    line-height: 80%
+    text-align: justify
 
-    &__links
-        display: flex
-        flex-direction: column
-        margin: $mobile-indent-bottom
+  &__links
+    display: flex
+    flex-direction: column
+    margin: $mobile-indent-bottom
 
-    &__links > *
-        margin: 5px 0 0 0
-        color: $light
+  &__links > *
+    margin: 5px 0 0 0
+    color: $light
 
 .description
-    &__stack
-        font-size: $mobile-font-md
-        margin: 0
-        margin-bottom: 20px
+  &__stack
+    font-size: $mobile-font-md
+    margin: 0
+    margin-bottom: 20px
 
 
 .feature-list
 
-    &__item
-        list-style: square
+  &__item
+    list-style: square
 
 @media screen and (min-width: 500px)
 
-    .work
+  .work
 
-        &__header
-            font-size: $desktop-font-lg
-            margin: $desktop-indent-bottom
+    &__header
+      font-size: $desktop-font-lg
+      margin: $desktop-indent-bottom
 
-    .list
-        display: flex
-        flex-wrap: wrap
-        gap: 30px 20px
+  .list
+    display: flex
+    flex-wrap: wrap
+    gap: 30px 20px
 
-    .element
-        display: flex
-        flex-direction: column
-        width: 50%
+  .element
+    display: flex
+    flex-direction: column
+    width: 50%
 
-        &__title
-            font-size: $desktop-font-md
-            margin: 0 0 20px 0
-        &__description
-            margin: 0 0 20px
-            font-size: $desktop-font-sm
-            text-align: justify
-        &__links
-            margin: 0
-            gap: 8px
-        &__links > *
-            font-size: $desktop-font-sm
-            margin: 0
+    &__title
+      font-size: $desktop-font-md
+      margin: 0 0 20px 0
 
-    .links
+    &__description
+      margin: 0 0 20px
+      font-size: $desktop-font-sm
+      text-align: justify
 
-        &__work:hover
-            color: $dark
-            width: fit-content
-            background-color: $light
-            text-decoration-color: $light
-            transition: 0.3s
+    &__links
+      margin: 0
+      gap: 8px
+
+    &__links > *
+      font-size: $desktop-font-sm
+      margin: 0
+
+  .links
+
+    &__work:hover
+      color: $dark
+      width: fit-content
+      background-color: $light
+      text-decoration-color: $light
+      transition: 0.3s
